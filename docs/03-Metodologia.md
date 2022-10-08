@@ -57,6 +57,8 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através do link [aqui](https://trello.com/invite/b/sZbRNAtB/c72187bad7315d0875187d84ba98a9af/kanban) e é apresentado, no estado atual, na figura a seguir. 
 
+![kanban](img/kanban.png) 
+
 ### Ferramentas
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue
