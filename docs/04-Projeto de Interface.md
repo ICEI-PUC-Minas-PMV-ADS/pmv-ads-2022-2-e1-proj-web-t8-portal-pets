@@ -36,4 +36,22 @@ Com base na estrutura padrão, o bloco de conteúdo traz as postagens em destaqu
 ![home-page](img/home-page.png)
 
 
+### Tela - Leitura Postagem
 
+A tela de leitura de postagens apresenta as informações referentes a um artigo específico escolhido pelo usuário. O Menu Lateral apresenta os mesmos elementos da Home-Page e com a adição do componente de **postagens relacionadas**, que apresenta ao usuário outros posts sobre o mesmo assunto.
+
+![postagem](img/postagem.png)
+
+
+### Tela - Resultado de Pesquisa
+
+Assim que o usuário informa um tópico de pesquisa, ao clicar no botão de pesquisa, ele é direcionado para uma tela em que aparecem as postagens associadas ao tópico informado.
+
+![resultado-pesquisa](img/resultado-pesquisa.png)
+
+
+### Tela - Incluir Postagem
+
+Na tela que permite ao inserir uma postagem, deve-se informar o nome de quem está inserindo, o título da postagem, o texto e um resumo desse post em questão. Esta tela é exibida na forma de uma janela modal. Em seguida, deve-se confirmar ou cancelar a ação de postar. Na sequência, a tela é fechada voltando para o ambiente anterior.
+
+![salvar-postagem](img/salvar-postagem.png)
