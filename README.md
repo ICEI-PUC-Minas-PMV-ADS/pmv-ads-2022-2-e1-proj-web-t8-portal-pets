@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+# Portal Pets
 
-`CURSO`
+`Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Eixo 1 - Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1° Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Neste trabalho faremos a criação de um portal de notícias que permita o acesso à dicas, guias e informações em geral sobre como cuidar de animais domésticos, de uma forma simples, fácil e concisa.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* David Nogueira dos Santos
+* Gabriel Augusto Alves Lourenço
+* Raphael Ventura Muniz Lima
 
 ## Orientador
 
-* Nome completo do professor 1
+* Simone de Assis Alves da Silva
 
 ## Instruções de utilização
 
@@ -41,7 +41,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* https://portal-pets.herokuapp.com/
 
 # Armazenamento do Código-Fonte
 
