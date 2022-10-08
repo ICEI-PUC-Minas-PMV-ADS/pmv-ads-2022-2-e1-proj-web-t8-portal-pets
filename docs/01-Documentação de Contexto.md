@@ -1,46 +1,37 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+É notório que os animais de estimação, popularmente conhecidos como pets, são cada vez mais comuns nos lares brasileiros. Tal fato pode ser explicado pelo crescimento do número de casais sem filhos, o aumento de domicílios habitados por uma só pessoa e, até mesmo, a diminuição do tamanho das residências e espaços para lazer.
+
+Sabe-se que, cada vez mais pessoas têm adotado um novo estilo de vida, onde consideram os pets como parte da família, e em alguns casos, não planejam ter filhos. De acordo com dados do IBGE de 2021, o Brasil conta com 150 milhões de animais domésticos e tem a segunda maior população de cães e gatos do planeta, de modo que, mais da metade das casas brasileiras possuem pelo menos um animal doméstico, um crescimento de 6% em relação ao ano anterior. Desse modo, é evidente como há uma forte tendência da integralização dos pets na vida do brasileiro.   
+
+Além disso, há uma tendência crescente em valorizar os pets no Brasil, as pessoas buscam cuidar ao máximo e com o melhor. O mundo pet tornou-se elegante e chique nos últimos anos. Criados como "família" nas grandes cidades, é possível encontrar salões de beleza especializados, onde oferecem novos estilos de banho mais sofisticados. Esses pets andam com andadores, dormem sob os cuidados dos donos ou até mesmo de uma babá. Eles são internados no hospital e quando morrem podem ser enterrados em um cemitério ou até mesmo cremados. Assim, serviços e produtos não faltam para esse meio e a inclinação é de continuar aumentando.
+
+Diante disso, vimos que o número de famílias que possuem um ou mais pets aumentou e muito nos últimos anos, além disso um outro fator que vem aumentando é o interesse das pessoas em prover os melhores cuidados para seus animais. Portanto, torna-se fundamental que existam canais  que permitam ao usuário acessar um conteúdo de qualidade e informativo sobre os cuidados adequados para os seus animais tão queridos. 
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Conforme foi contextualizado, no Brasil temos uma forte tendência do mercado pet e um interesse cada vez maior em fornecer cuidados e carinho a esses animais. Dessa forma, o problema que se busca resolver com este projeto é a falta da centralização de informações benéficas sobre cuidados essenciais dos animais domésticos, o que beneficiará tanto donos de pets de primeira viagem, quanto os mais experientes que não sabem de pequenos detalhes que podem fazer uma grande diferença na vida e saúde de seus animais de estimação.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de um portal de notícias que permita o acesso à dicas, guias e informações em geral sobre como cuidar de animais domésticos, de uma forma simples, fácil e concisa. Também buscamos conscientizar as pessoas de que algumas práticas comuns podem acabar por prejudicar o bem estar de seus animais e divulgar ONGs que cuidam de animais em situação de rua.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar:
+- Fornecer informações essenciais sobre cuidados com pets. 
+- Permitir ao usuário compartilhar suas próprias experiências.
+- Permitir ao usuário compartilhar suas dúvidas e dificuldades.
+- Permitir ao usuário comentar e avaliar as postagens.
+- Integrar com projetos de ONGs para ações sociais, ex.: adoção de animais.
+
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Sabe-se que o mercado pet está em uma forte tendência de alta no Brasil e no mundo. Estimativas de um estudo da revista EXAME apontam que o Brasil possuía 11% do market share global do setor de pets em 2020 e deverá fechar o ano de 2022 com 15% dele, movimentando mais de 40 bilhões de USD. Esses são números impressionantes e que indicam a força desse mercado no Brasil, bem como a sua relevância.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Por outro lado, mesmo com essa potência do mercado, ainda há uma escassez de canais que centralizam informações úteis para o público consumidor desse universo de pets. Não faltam produtos no estoque, mas carece-se de informações que vão ajudar um “pai/mãe de pet” a cuidar do seu animal querido. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Com este portal de notícias procuramos beneficiar o público que tenha animais domésticos, nota-se que esse é um público bem amplo, que engloba todas as idades e gêneros. Dessa forma, qualquer um que busca obter e/ou compartilhar informações sobre cuidados para o seu animal poderá ser ajudado com a solução deste trabalho.
