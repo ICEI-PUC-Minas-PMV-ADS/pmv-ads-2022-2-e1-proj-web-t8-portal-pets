@@ -44,6 +44,7 @@ header ul {
 
 header ul li {
     float: left;
+    position: relative;
 }
 
 header ul li a {
@@ -60,4 +61,34 @@ header ul li a:hover {
 
 header .menu-toggle {
     display: none;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 875px) {
+    header {
+        position: relative;
+    }
+    header ul {
+        width: 100%;
+        background-color: #fd8122;
+        margin-right: 0px;
+        max-height: 0px;
+        overflow: hidden;
+    }
+    .showing {
+        max-height: 100em;
+    }
+    header ul li {
+        width: 100%;
+    }
+    header .menu-toggle {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 1.9em;
+    }
+    header .logo {
+        margin-left: .5em;
+    }
 }
