@@ -11,7 +11,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', sans-serif;
-    color: #444;
+    color: #ff6f00;
     margin: 5px;
 }
 
@@ -75,7 +75,7 @@ header .menu-toggle {
 }
 
 .page-wrapper a:hover {
-    color: rgb(47, 47, 98)
+    color: orange;
 }
 
 /* POST SLIDER */
@@ -124,9 +124,23 @@ header .menu-toggle {
     box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
 }
 
-.post-slider .post-wrapper .post-info {
+.post-slider .post-wrapper .post .post-info {
     height: 130px;
-    padding: 0px 10px;
+    padding: 5px 10px;
+    overflow: auto;
+}
+
+.post-slider .post-wrapper .post .post-info .fa-user, .post-slider .post-wrapper .post .post-info .fa-calendar{
+    padding: 10px 0px;
+    font-size: .7em;
+    font-weight: bold;
+    color: #ff6f00;
+    margin: 5px;
+}
+
+.post-slider .post-wrapper .post .post-info span{
+    font-family: 'Lora', sans-serif;
+    font-size: 1.2em;
 }
 
 .post-slider .post-wrapper .post .slider-image {
