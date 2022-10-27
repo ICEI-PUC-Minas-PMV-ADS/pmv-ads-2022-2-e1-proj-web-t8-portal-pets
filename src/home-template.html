@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+    .main-content .post-list { 
+      width: 70%;
+      float: left;
+      padding: 20px 0px;
+    }
+    .main-content .side-bar { 
+      width: 25%;
+      float: left;
+      padding-left: 70px;
+      padding-top: 120px;
+    }
+    .footer {
+      clear: both;
+      position: relative;
+      height: 60px;
+      margin-top: -200px;
+      background-color: #ff6f00;
+      padding: 5px;
+      text-align: center;
+    }
+
+    .main-content .post-list .post-wrapper {
+      width: 150em;
+      height: 350px;
+      margin: 0px 50px;
+    }
+    .main-content .post-list .post-wrapper .post {
+        height: 100%;
+        display: table-row;
+        background: white;
+        border-radius: 5px;
+    }
+    .main-content .post-list .list-title {
+        margin-left: 50px;
+    }
+
+    .main-content .post-list .post-wrapper .post .post-info {
+        width: 25em;  
+        padding: 10px 10px;
+        float: right;
+        overflow: auto;
+        text-align: center;
+        color: #913f00;
+    }
+
+    .main-content .post-list .post-wrapper .post .post-info .fa-user, .main-content .post-list .post-wrapper .post .post-info .fa-calendar{
+        padding: 10px 0px;
+        font-size: .7em;
+        font-weight: bold;
+        color: #ff6f00;
+        margin: 5px;
+    }
+
+    .main-content .post-list .post-wrapper .post .post-info span{
+        font-family: 'Lora', sans-serif;
+        font-size: 1.2em;
+    }
+
+    .main-content .post-list .post-wrapper .post .list-image {
+        width: 450px;
+        height: 300px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    </style>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5a60c17890.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Comfortaa:wght@300;400;500&family=Indie+Flower&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Pacifico&family=Quicksand:wght@500;600&family=Roboto+Slab:wght@200;300;400;500;600;700;800&family=Satisfy&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <title>Amigo Pet</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-text">Nome <span>Logo</span></h1>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+    </header>
+
+    <!-- Page Wrapper -->
+    <div class="page-wrapper">
+        <!-- Post Slider -->
+        <div class="post-slider">
+            <h1 class="slider-title">Posts em Destaque</h1>
+            <div class="post-wrapper">
+                <div class="post">
+                    <img src="img/dog-2.png" alt="" class="slider-image">
+                    <div class="post-info">
+                        <h3><a href="single.html">Título do post 1</a></h3>
+                        <i class="fas fa-user"><span> Autor</span></i>
+                        &nbsp;
+                        <i class="far fa-calendar"><span> Data</span></i>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <img src="img/dog-2.png" alt="" class="slider-image">
+                    <div class="post-info">
+                        <h3><a href="single.html">Título do post 2</a></h3>
+                        <i class="far fa-user"><span> Autor</span></i>
+                        &nbsp;
+                        <i class="far fa-calendar"><span> Data</span></i>
+                    </div>
+                </div>
+                
+                <div class="post">
+                    <img src="img/dog-2.png" alt="" class="slider-image">
+                    <div class="post-info">
+                        <h3><a href="single.html">Título do post 3</a></h3>
+                        <i class="far fa-user"><span> Autor</span></i>
+                        &nbsp;
+                        <i class="far fa-calendar"><span> Data</span></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- // Post Slider -->
+
+        <div class="main-content">
+          <div class="post-list">
+            <h1 class="list-title">Posts Recentes</h1>
+            <div class="post-wrapper">
+                <div class="post">
+                    <img src="img/dog-2.png" alt="" class="list-image">
+                    <div class="post-info">
+                        <h3><a href="single.html">Título do post 4</a></h3>
+                        <i class="fas fa-user"><span> Autor</span></i>
+                        &nbsp;
+                        <i class="far fa-calendar"><span> Data</span></i>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut veniam itaque at excepturi illo nesciunt quisquam maxime dolores ex sunt?</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+    
+          <div class="side-bar">
+            <div class="section search">
+              <h2 class="section-title">Pesquisar</h2>
+              <form action="index.html" method="post">
+                <input type="text" name="search-term" class="text-input" placeholder="Pesquisar...">
+              </form>
+            </div>
+            <div class="section topics">
+              <h2 class="section-title">Tópicos</h2>
+              <ul>
+                <li><a href="#">Tópico 1</a></li>
+                <li><a href="#">Tópico 2</a></li>
+                <li><a href="#">Tópico 3</a></li>
+                <li><a href="#">Tópico 4</a></li>
+                <li><a href="#">Tópico 5</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        
+    </div>
+    <!-- // Page Wrapper -->
+  
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+
+      
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Carrossel de Imagens -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
