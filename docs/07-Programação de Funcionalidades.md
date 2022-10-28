@@ -4,7 +4,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 ## Cabeçalho do Site (RF-12)
 
-Cabeçalho padrão para as telas de visualização do site. Ele funciona como atalho de navegação para pontos chaves do portal
+Cabeçalho padrão para as telas de visualização do site. Ele funciona como atalho de navegação para pontos chaves do portal. Esse menu tem uma regra para telas menores onde as funcionalidades do menu ficam escondidas e só aparecem ao clicar nas 3 listras
 
 ![Cabecalho](img/cabecalho-site.png)
 
@@ -12,9 +12,23 @@ Cabeçalho padrão para as telas de visualização do site. Ele funciona como at
 - RF-12: O site deve possuir um painel com atalhos dos principais tópicos
 
 ### Artefatos de Funcionalidade
-- [home.html](https://portal-pets.herokuapp.com/)
+- [Home](https://portal-pets.herokuapp.com/home.html)
+- style.css
+
+## Posts em Destaque (RF-04)
+
+Carrossel de postagens contendo 6 posts escolhidos para se destacarem na tela principal, sendo que apenas 3 são visualizados por vez. Esses posts vão circulando automaticamente
+
+![Carrossel](img/carrossel-imagens.png)
+
+### Requisitos Atendidos 
+- RF 04-O site deve apresentar na página principal as postagens em destaque.
+
+### Artefatos de Funcionalidade
+- [Home](https://portal-pets.herokuapp.com/home.html)
 - style.css
 - /img/
+- script.js
 
 > **Links Úteis**:
 >
