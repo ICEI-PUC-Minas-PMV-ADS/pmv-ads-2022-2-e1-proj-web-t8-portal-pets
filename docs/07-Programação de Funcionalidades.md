@@ -6,13 +6,13 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 Cabeçalho padrão para as telas de visualização do site. Ele funciona como atalho de navegação para pontos chaves do portal
 
-![Cabecalho](img/cabecalho-img.png)
+![Cabecalho](img/cabecalho-site.png)
 
 ### Requisitos Atendidos 
 - RF-12: O site deve possuir um painel com atalhos dos principais tópicos
 
 ### Artefatos de Funcionalidade
-- home.html
+- [home.html](https://portal-pets.herokuapp.com/)
 - style.css
 - /img/
 
