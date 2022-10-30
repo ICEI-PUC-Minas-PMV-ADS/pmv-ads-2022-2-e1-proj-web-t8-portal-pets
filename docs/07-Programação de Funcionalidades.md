@@ -1,10 +1,34 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcionalidades do sistema. 
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+## Cabeçalho do Site (RF-12)
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+Cabeçalho padrão para as telas de visualização do site. Ele funciona como atalho de navegação para pontos chaves do portal. Esse menu tem uma regra para telas menores onde as funcionalidades do menu ficam escondidas e só aparecem ao clicar nas 3 listras
+
+![Cabecalho](img/cabecalho-site.png)
+
+### Requisitos Atendidos 
+- RF-12: O site deve possuir um painel com atalhos dos principais tópicos
+
+### Artefatos de Funcionalidade
+- [Home](https://portal-pets.herokuapp.com/home.html)
+- style.css
+
+## Posts em Destaque (RF-04)
+
+Carrossel de postagens contendo 6 posts escolhidos para se destacarem na tela principal, sendo que apenas 3 são visualizados por vez. Esses posts vão circulando automaticamente
+
+![Carrossel](img/carrossel-imagens.png)
+
+### Requisitos Atendidos 
+- RF 04-O site deve apresentar na página principal as postagens em destaque.
+
+### Artefatos de Funcionalidade
+- [Home](https://portal-pets.herokuapp.com/home.html)
+- style.css
+- /img/
+- script.js
 
 > **Links Úteis**:
 >
