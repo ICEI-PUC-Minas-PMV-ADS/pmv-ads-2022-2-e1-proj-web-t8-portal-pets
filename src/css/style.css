@@ -20,6 +20,7 @@ a {
     color: inherit;
 }
 
+
 header {
     background-color: #ff6f00;
     height: 66px;
@@ -36,9 +37,11 @@ header .logo {
 }
 
 header .logo-text {
-    margin: 9px;
+    margin-left: 0px;
     font-family: 'Satisfy', cursive;
     font-size: 2em;
+    display: inline-block;
+
 }
 
 header .logo-text span {
@@ -178,4 +181,21 @@ header .menu-toggle {
     header .logo {
         margin-left: .5em;
     }
+}
+
+#container {
+    margin-top: 4vh;
+    width: 400px;
+    margin-left: 1340px;
+    border: 3px solid #d3d3d3;
+    font-weight: bold;
+}
+
+#container2 {
+    margin-top: 2vh;
+    width: 400px;
+    height: 150px;
+    margin-left: 1340px;
+    border: 3px solid #d3d3d3;
+    font-weight: bold;
 }
