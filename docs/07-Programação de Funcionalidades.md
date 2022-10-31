@@ -12,7 +12,7 @@ Cabeçalho padrão para as telas de visualização do site. Ele funciona como at
 - RF-12: O site deve possuir um painel com atalhos dos principais tópicos
 
 ### Artefatos de Funcionalidade
-- [Home](https://portal-pets.herokuapp.com/home.html)
+- [Home](https://amigo-pet.herokuapp.com/home.html)
 - style.css
 
 ## Posts em Destaque (RF-04)
@@ -21,25 +21,24 @@ Carrossel de postagens contendo 6 posts escolhidos para se destacarem na tela pr
 
 ![Carrossel](img/carrossel-imagens.png)
 
-## SideBar
-SiderBar mostrando alguns links de Projetos e Ações ( ONGs ) e links de Redes Sociais do próprio site 
+## Sidebar (RF-07 e RF-13)
+Sidebar mostrando alguns links de Projetos e Ações ( ONGs ) e links de compartilhamento da página nas redes sociais 
 
 ![SideBar](img/SideBar.jpeg)
 
 ### Requisitos Atendidos 
-- RF 04-O site deve apresentar na página principal as postagens em destaque.
-- SideBar
+- RF-07: O site deve permitir o compartilhamento de postagens em plataformas de redes sociais.
+- RF-13: O site deve permitir ao usuário encontrar projetos sociais de ONGs cuidadoras de animais.
 
 ### Artefatos de Funcionalidade
-- [Home](https://portal-pets.herokuapp.com/home.html)
+- [Home](https://amigo-pet.herokuapp.com/home.html)
 - style.css
-- /img/
-- script.js
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+## Modal de Comentários (RF-08)
+
+### Requisitos Atendidos 
+
+- RF-08: O site deve permitir que usuários possam comentar as postagens.
+
+### Artefatos de Funcionalidade
+- [Comentário](https://amigo-pet.herokuapp.com/pages/modal-comentario.html)
