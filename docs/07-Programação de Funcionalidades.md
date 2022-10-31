@@ -21,8 +21,14 @@ Carrossel de postagens contendo 6 posts escolhidos para se destacarem na tela pr
 
 ![Carrossel](img/carrossel-imagens.png)
 
+## SideBar
+SiderBar mostrando alguns links de Projetos e Ações ( ONGs ) e links de Redes Sociais do próprio site 
+
+- [SideBar](SideBar.jpeg)
+
 ### Requisitos Atendidos 
 - RF 04-O site deve apresentar na página principal as postagens em destaque.
+- SideBar
 
 ### Artefatos de Funcionalidade
 - [Home](https://portal-pets.herokuapp.com/home.html)
