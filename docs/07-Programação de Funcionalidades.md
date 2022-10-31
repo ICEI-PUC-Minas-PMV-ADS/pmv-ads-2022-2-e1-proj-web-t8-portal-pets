@@ -21,6 +21,15 @@ Carrossel de postagens contendo 6 posts escolhidos para se destacarem na tela pr
 
 ![Carrossel](img/carrossel-imagens.png)
 
+### Requisitos Atendidos 
+RF-04: O site deve apresentar na página principal as postagens mais recentes e as em destaque.
+
+### Artefatos de Funcionalidade
+- [Home](https://amigo-pet.herokuapp.com/home.html)
+- style.css
+- /img/
+- script.js
+
 ## Sidebar (RF-07 e RF-13)
 Sidebar mostrando alguns links de Projetos e Ações ( ONGs ) e links de compartilhamento da página nas redes sociais 
 
