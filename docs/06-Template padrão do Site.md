@@ -17,9 +17,9 @@ Tela que abrange todas as visualizações iniciais do site e a lista de post em 
 ## Tela de Visualização da Postagem 
 Tela que tem como objetivo mostrar uma certa Postagem e comentários da postagem. 
 
-![Home](img/template-postagem.png)
+![Post](img/template-postagem.png)
 
 ## Modal de Comentários
 Modal que aparece quando o usuário for comentar alguma postagem. 
 
-![Home](img/modal-comentario.png)
+![Comentario](img/modal-comentario.png)
