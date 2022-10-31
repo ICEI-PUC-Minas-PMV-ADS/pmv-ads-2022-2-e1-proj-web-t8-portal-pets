@@ -6,7 +6,7 @@ O template criado é composto pelos seguintes layouts:
 
 - Tela principal
 - Tela de visualização da postagem
-- Modal de mensagens
+- Modal de comentários
 
 
 ## Tela Principal
@@ -18,3 +18,8 @@ Tela que abrange todas as visualizações iniciais do site e a lista de post em 
 Tela que tem como objetivo mostrar uma certa Postagem e comentários da postagem. 
 
 ![Home](img/template-postagem.png)
+
+## Modal de Comentários
+Modal que aparece quando o usuário for comentar alguma postagem. 
+
+![Home](img/modal-comentario.png)
