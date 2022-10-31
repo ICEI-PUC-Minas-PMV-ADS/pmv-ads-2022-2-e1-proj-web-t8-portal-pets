@@ -35,6 +35,9 @@ Sidebar mostrando alguns links de Projetos e Ações ( ONGs ) e links de compart
 - style.css
 
 ## Modal de Comentários (RF-08)
+Modal que aparece para comentar algum post
+
+![Comentario](img/modal-comentario.png)
 
 ### Requisitos Atendidos 
 
