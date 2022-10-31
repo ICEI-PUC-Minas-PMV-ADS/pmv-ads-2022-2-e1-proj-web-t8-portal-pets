@@ -17,4 +17,4 @@ Tela que abrange todas as visualizações iniciais do site e a lista de post em 
 ## Tela de Visualização da Postagem 
 Tela que tem como objetivo mostrar uma certa Postagem e comentários da postagem. 
 
-![Home](img/Template da Visualização da Postagem.png)
+![Home](img/template-postagem.png)
