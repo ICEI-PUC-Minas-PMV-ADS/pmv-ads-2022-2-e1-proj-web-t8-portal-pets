@@ -24,7 +24,7 @@ Carrossel de postagens contendo 6 posts escolhidos para se destacarem na tela pr
 ## SideBar
 SiderBar mostrando alguns links de Projetos e Ações ( ONGs ) e links de Redes Sociais do próprio site 
 
-![SideBar](SideBar.jpeg)
+![SideBar](img/SideBar.jpeg)
 
 ### Requisitos Atendidos 
 - RF 04-O site deve apresentar na página principal as postagens em destaque.
