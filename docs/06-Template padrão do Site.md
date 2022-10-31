@@ -13,3 +13,8 @@ O template criado é composto pelos seguintes layouts:
 Tela que abrange todas as visualizações iniciais do site e a lista de post em destaque e os mais recentes.
 
 ![Home](img/template-home.png)
+
+## Tela de Visualização da Postagem 
+Tela que tem como objetivo mostrar uma certa Postagem e comentários da postagem. 
+
+![Home](img/Template da Visualização da Postagem.png)
