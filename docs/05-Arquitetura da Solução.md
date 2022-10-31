@@ -33,7 +33,7 @@ A solução implementada conta com os seguintes módulos:
 
 O site utiliza a plataforma do Heroku como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: 
 
-[https://portal-pets.herokuapp.com/](https://portal-pets.herokuapp.com/)
+[https://amigo-pet.herokuapp.com/](https://amigo-pet.herokuapp.com/)
 
 A publicação do site no Heroku é feita por meio da Command Line Interface (CLI) do Heroku. Para o deploy do site no Heroku, ele é feito automaticamente após um git push do código no repositório local da main branch, para o repositório Heroku remoto. 
 
