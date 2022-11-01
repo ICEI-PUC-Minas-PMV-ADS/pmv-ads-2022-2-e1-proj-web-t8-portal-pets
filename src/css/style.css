@@ -20,6 +20,24 @@ a {
     color: inherit;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    background: #ff6f00;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.btn:hover {
+    background: #ef5c01;
+    color: white !important;
+}
 
 header {
     background-color: #ff6f00;
@@ -153,11 +171,81 @@ header .menu-toggle {
     border-top-right-radius: 5px;
 }
 
-.page-wrapper .sibebar {
+/* CONTENT */
+.content {
+    width: 90%;
+    margin: 30px auto 30px;
+}
+
+.content .main-content {
+    width: 70%;
+    float: left;
+}
+
+.content .main-content .recent-post-title {
+    margin: 20px;
+}
+
+.content .main-content .post {
+    width: 95%;
+    height: 270px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: white;
+    position: relative;
+}
+
+.content .main-content .post .post-preview .fa-user, .content .main-content .post .post-preview .fa-calendar{
+    padding: 10px 10px;
+    font-size: .7em;
+    font-weight: bold;
+    color: #ff6f00;
+}
+
+.content .main-content .post .post-preview span{
+    font-family: 'Lora', sans-serif;
+    font-size: 1.4em;
+}
+
+.content .main-content .post .post-preview p{
+    font-weight: bold;
+    /* color: #ff5500; */
+}
+
+.content .main-content .post .read-more {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: 2px solid #ff6f00;
+    font-weight: bold;
+    background: transparent;
+    border-radius: 0px;
+    color: #ff6f00 !important;
+}
+
+.content .main-content .post .read-more:hover {
+    background: #ff6f00;
+    color: white !important;
+    transition: .25s;
+}
+
+.content .main-content .post .post-image {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.content .main-content .post .post-preview {
+    width: 60%;
     float: right;
-    margin-right: 8%;
-    padding-bottom: 20px;
-    width: 25%;
+    padding: 10px;
+}
+
+.content .sibebar {
+    width: 30%;
+    float: left;
+    border: 1px solid green;
+    height: 300px;
 }
 
 .page-wrapper .sibebar .container {
