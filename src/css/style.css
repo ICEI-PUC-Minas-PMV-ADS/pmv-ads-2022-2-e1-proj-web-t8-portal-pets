@@ -6,11 +6,11 @@ body {
     padding: 0px;
     margin: 0px;
     background: #f6f6f6;
-    font-family: 'Lora', serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lora', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     color: #ff6f00;
     margin: 5px;
 }
@@ -38,6 +38,20 @@ a {
     background: #ef5c01;
     color: white !important;
 }
+
+.text-input {
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    outline: none;
+    color: #444;
+    line-height: 1.2rem;
+    font-family: "Lora", serif;
+}
+
+/* NAVBAR */
 
 header {
     background-color: #ff6f00;
@@ -81,7 +95,7 @@ header ul li {
 
 header ul li a {
     display: block;
-    padding: 20.5px;
+    padding: 20px;
     font-size: 1.1em;
     text-decoration: none;
 }
@@ -153,14 +167,13 @@ header .menu-toggle {
 
 .post-slider .post-wrapper .post .post-info .fa-user, .post-slider .post-wrapper .post .post-info .fa-calendar{
     padding: 10px 0px;
-    font-size: .7em;
+    font-size: .75em;
     font-weight: bold;
-    color: #5f4433;
-    margin: 5px;
+    color: #785f50;
 }
 
 .post-slider .post-wrapper .post .post-info span{
-    font-family: 'Lora', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 1.2em;
 }
 
@@ -199,17 +212,17 @@ header .menu-toggle {
     padding: 10px 10px;
     font-size: .7em;
     font-weight: bold;
-    color: #5f4433;
+    color: #785f50;
 }
 
 .content .main-content .post .post-preview span{
-    font-family: 'Lora', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 1.4em;
 }
 
 .content .main-content .post .post-preview p{
     font-weight: bold;
-    color: #5f4433;
+    color: #785f50;
 }
 
 .content .main-content .post .read-more {
@@ -244,47 +257,55 @@ header .menu-toggle {
 .content .sibebar {
     width: 30%;
     float: left;
-    border: 1px solid green;
     height: 300px;
 }
 
-.page-wrapper .sibebar .container {
-    margin: 50px 10px 20px 0px;
+.content .sibebar .section {
+    margin: 20px 10px 20px 0px;
     margin-left: 10px;
     border: 3px solid #d3d3d3;
     font-weight: bold;
 }
 
-.page-wrapper .sibebar .container h2{
+.content .sibebar .section h2{
     margin-top: 10px; 
     text-align: center; 
     color:  #ff6f00;
 }
 
-.page-wrapper .sibebar .container ul{
-    margin-bottom: 25px; 
-    margin-top: 25px;
+.content .sibebar .section.search {
+    margin-top: 87.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
-.page-wrapper .sibebar .container ul p{
-    color: #ff6f00; 
+.content .sibebar .section.search .section-title {
+    margin-bottom: 25px;
+}
+
+.content .sibebar .section.projects ul {
+    margin-bottom: 15px; 
+    margin-top: 15px;
+    list-style: none;
+}
+
+.content .sibebar .section.projects ul li {
+    color: #785f50; 
     font-size: 20px;
+    padding: 5px;
 }
 
-.page-wrapper .sibebar .container-brands {
-    margin: 10px;
-    height: 150px;
-    border: 3px solid #d3d3d3;
-    font-weight: bold;
+.content .sibebar .section.projects ul li a {
+    transition: all .3s;
 }
 
-.page-wrapper .sibebar .container-brands h2{
-    margin-top: 10px; 
-    text-align: center; 
-    color:  #ff6f00;
+.content .sibebar .section.projects ul li a:hover {
+    padding-left: 15px;
+    transition: all .3s;
 }
 
-.page-wrapper .sibebar .container-brands ul{
+.page-wrapper .sibebar .section.brands ul {
     margin-bottom: 10px; 
     padding-left: 0%;
     display: flex;
@@ -294,7 +315,7 @@ header .menu-toggle {
     align-items: center;
 }
 
-.page-wrapper .sibebar .container-brands ul a{
+.content .sibebar .section.brands ul a {
     padding: 10px;
 }
 
