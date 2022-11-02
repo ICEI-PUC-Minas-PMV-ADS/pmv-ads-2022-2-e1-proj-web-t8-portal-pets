@@ -155,7 +155,7 @@ header .menu-toggle {
     padding: 10px 0px;
     font-size: .7em;
     font-weight: bold;
-    color: #ff6f00;
+    color: #5f4433;
     margin: 5px;
 }
 
@@ -199,7 +199,7 @@ header .menu-toggle {
     padding: 10px 10px;
     font-size: .7em;
     font-weight: bold;
-    color: #ff6f00;
+    color: #5f4433;
 }
 
 .content .main-content .post .post-preview span{
@@ -209,7 +209,7 @@ header .menu-toggle {
 
 .content .main-content .post .post-preview p{
     font-weight: bold;
-    /* color: #ff5500; */
+    color: #5f4433;
 }
 
 .content .main-content .post .read-more {
