@@ -305,7 +305,7 @@ header .menu-toggle {
     transition: all .3s;
 }
 
-.page-wrapper .sibebar .section.brands ul {
+.page-wrapper .sibebar .section.social ul {
     margin-bottom: 10px; 
     padding-left: 0%;
     display: flex;
@@ -315,7 +315,7 @@ header .menu-toggle {
     align-items: center;
 }
 
-.content .sibebar .section.brands ul a {
+.content .sibebar .section.social ul a {
     padding: 10px;
 }
 
