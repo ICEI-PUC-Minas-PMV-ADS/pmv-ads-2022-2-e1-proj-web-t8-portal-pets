@@ -194,6 +194,40 @@ header .menu-toggle {
     float: left;
 }
 
+.content .main-content.post {
+    background: white;
+    padding: 20px 50px;
+    font-size: 1.1em;
+}
+
+.content .main-content.post .post-content { 
+    text-align: justify;
+    color: #45342a;
+}
+
+.content .main-content.post .post-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.content .main-content.post .fa-user, .content .main-content.post .fa-calendar{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: .9em;
+    font-weight: bold;
+    color: #45342a;
+}
+
+.content .main-content.post span{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.2em;
+}
+
+.content .main-content.post img {
+    width: 100%;
+    height: 450px;
+}
+
 .content .main-content .recent-post-title {
     margin: 20px;
 }
@@ -242,26 +276,27 @@ header .menu-toggle {
 }
 
 .content .main-content .post .post-image {
-    width: 40%;
+    width: 50%;
     height: 100%;
     float: left;
 }
 
 .content .main-content .post .post-preview {
-    width: 60%;
+    width: 50%;
     float: right;
-    padding: 10px;
+    padding: 10px 10px 10px 20px;
 }
+
+/* SIDEBAR */
 
 .content .sibebar {
     width: 30%;
     float: left;
-    height: 300px;
+    padding: 88px 10px 0px 10px;
 }
 
 .content .sibebar .section {
-    margin: 20px 10px 20px 0px;
-    margin-left: 10px;
+    margin-bottom: 20px;
     border: 3px solid #d3d3d3;
     font-weight: bold;
 }
@@ -272,15 +307,8 @@ header .menu-toggle {
     color:  #ff6f00;
 }
 
-.content .sibebar .section.search {
-    margin-top: 87.5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-}
-
-.content .sibebar .section.search .section-title {
-    margin-bottom: 25px;
+.content .sibebar.post {
+    padding: 0px 20px;
 }
 
 .content .sibebar .section.projects ul {
@@ -316,6 +344,25 @@ header .menu-toggle {
 
 .content .sibebar .section.social ul a {
     padding: 10px;
+}
+
+.content .sibebar.post .section.related {
+    padding-bottom: 15px;
+}
+
+.content .sibebar.post .section.related .post{
+    margin-top: 20px;
+    padding: 0px 20px 0px 20px;
+    color: #785f50; 
+    font-size: 20px;
+}
+
+.content .sibebar .section.related .post img{
+    height: 50px;
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 3px;
 }
 
 /* FOOTER */
