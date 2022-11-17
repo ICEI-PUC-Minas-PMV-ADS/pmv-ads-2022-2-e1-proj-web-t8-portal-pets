@@ -287,6 +287,41 @@ header .menu-toggle {
     padding: 10px 10px 10px 20px;
 }
 
+/* COMMENTS */
+.content .main-content.post .comments .comment-box {
+    width: 100%;
+    padding: 2%;
+    border: 1px solid red;
+}
+
+.content .main-content.post .comments .comment-box.clearfix {
+    clear: both;
+}
+
+.content .main-content.post .comments .comment-box .comment-content{
+    width: 89%;
+    float: left;
+    margin-left: 1%;
+    font-size: 15px;
+}
+
+/* .content .main-content.post .comments .comment-box span{
+    margin: 0px;
+    padding-left: 5px;
+} */
+
+/* .content .main-content.post .comments .comment-box p{
+    margin: 0px;
+    padding-left: 5px;
+} */
+
+.content .main-content .comments .comment-box img {
+    width: 10%;
+    height: auto;
+    float: left;
+    border-radius: 100%;
+}
+
 /* SIDEBAR */
 
 .content .sibebar {
