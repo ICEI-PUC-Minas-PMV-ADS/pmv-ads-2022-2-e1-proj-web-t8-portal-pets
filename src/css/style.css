@@ -194,38 +194,9 @@ header .menu-toggle {
     float: left;
 }
 
-.content .main-content.post {
-    background: white;
-    padding: 20px 50px;
-    font-size: 1.1em;
-}
-
-.content .main-content.post .post-content { 
-    text-align: justify;
-    color: #45342a;
-}
-
-.content .main-content.post .post-title {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.content .main-content.post .fa-user, .content .main-content.post .fa-calendar{
-    padding: 10px;
-    margin-top: 20px;
-    font-size: .9em;
-    font-weight: bold;
-    color: #45342a;
-}
-
-.content .main-content.post span{
-    font-family: 'Roboto Slab', sans-serif;
-    font-size: 1.2em;
-}
-
-.content .main-content.post img {
-    width: 100%;
-    height: 450px;
+.content .main-content-wrapper {
+    width: 70%;
+    float: left;
 }
 
 .content .main-content .recent-post-title {
@@ -287,34 +258,96 @@ header .menu-toggle {
     padding: 10px 10px 10px 20px;
 }
 
-/* COMMENTS */
-.content .main-content.post .comments .comment-box {
+/* POST */
+.content .main-content.post {
     width: 100%;
+    background: white;
+    padding: 20px 50px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.content .main-content.post .post-content { 
+    text-align: justify;
+    color: #45342a;
+}
+
+.content .main-content.post .post-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.content .main-content.post .fa-user, .content .main-content.post .fa-calendar{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: .9em;
+    font-weight: bold;
+    color: #45342a;
+}
+
+.content .main-content.post span{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.2em;
+}
+
+.content .main-content.post img {
+    width: 100%;
+    height: 450px;
+}
+
+/* COMMENTS */
+.content .main-content.comments {
+    width: 100%;
+    padding: 0% 5%;
+    border: 1px solid green;
+    background: white;
+}
+
+.content .main-content.comments .comment-box {
     padding: 2%;
     border: 1px solid red;
 }
 
-.content .main-content.post .comments .comment-box.clearfix {
+.content .main-content.comments .comment-box.clearfix {
     clear: both;
 }
 
-.content .main-content.post .comments .comment-box .comment-content{
+.content .main-content.comments .comment-box .comment-content{
     width: 89%;
     float: left;
     margin-left: 1%;
     font-size: 15px;
 }
 
-/* .content .main-content.post .comments .comment-box p{
-    margin: 0px;
-    padding-left: 5px;
-} */
-
-.content .main-content .comments .comment-box img {
+.content .main-content.comments .comment-box img {
     width: 10%;
     height: auto;
     float: left;
     border-radius: 100%;
+}
+
+/* .content .main-content.comments .comment-box p{
+    margin: 0px;
+    padding-left: 5px;
+} */
+
+.content .main-content.comments .comment-form {
+    width: 100%;
+    margin: 20px auto;
+    padding: 2% 5%;
+    border: solid 1px blue;
+}
+
+.content .main-content.comments .comment-form input, .content .main-content.comments .comment-form textarea {
+    width: 100%;
+    padding: 2px;
+}
+
+.content .main-content.comments .comment-form input[type="button"] {
+    margin-top: 15px;
+    height: 35px;
+    font-size: 1.1em;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 /* SIDEBAR */
