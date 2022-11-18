@@ -37,3 +37,15 @@ $(document).ready(function() {
           ]
       });
 });
+
+var comment = [
+  {"name":"Pedro", "date":"31/10/2022", "text":"Esse é o melhor post que já vi!"},
+  {"name":"Tiago", "date":"01/11/2022", "text":"Muito educativo!"},
+  {"name":"João", "date":"01/11/2022", "text":"Muito obrigado por postar isso!"},
+  {"name":"Lucas", "date":"03/11/2022", "text":"Precisava disso!"},
+]
+
+for (var i = 0; i < comment.length; i++) {
+  var html = "<div class='comment-box clearfix'><img src='https://via.placeholder.com/100' alt=''><div class='comment-content'><span class='comment-name'>"+comment[i].name+"</span>&nbsp;<span class='comment-date'>"+comment[i].date+"</span><p class='comment-text'>"+comment[i].text+"</p></div></div>";
+  $(".comments").append(html);
+}
