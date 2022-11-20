@@ -3,30 +3,33 @@ $(document).ready(function() {
         $('.nav').toggleClass('showing')
     });
 
-    var comments;
+    var comments = [];
 
-    if (!localStorage.commentsData) {
-      localStorage.commentsData = JSON.stringify([]);
+    if (!window.localStorage.commentsData) {
+      window.localStorage.commentsData = [];
     } else {
-      comments = JSON.parse(localStorage.commentsData);
+      comments = JSON.parse(window.localStorage.commentsData);
     }
 
     comments.forEach(showComments);
 
     $("#addComment").click(function() {
-      var addObj = {
-        "name": $("#name").val(),
-        "email": $("#email").val(),
-        "date": today(),
-        "text": $("#text").val()
-      };
-      comments.push(addObj);
-      localStorage.commentsData = JSON.stringify(comments);
-      showComments(addObj);
-      cleanParameters();
+      addComment(comments);
     });
-  
 });
+
+function addComment(comments) {
+  var addObj = {
+    "name": $("#name").val(),
+    "email": $("#email").val(),
+    "date": today(),
+    "text": $("#text").val()
+  };
+  comments.push(addObj);
+  window.localStorage.commentsData = JSON.stringify(comments);
+  showComments(addObj);
+  cleanParameters();
+}
 
 function showComments(data) {
   var html = "<div class='comment-box clearfix'><img src='https://via.placeholder.com/100' alt=''><div class='comment-content'><span class='comment-name'>"+data.name+"</span>&nbsp;<span class='comment-date'>"+data.date+"</span><p class='comment-text'>"+data.text+"</p></div></div>";
