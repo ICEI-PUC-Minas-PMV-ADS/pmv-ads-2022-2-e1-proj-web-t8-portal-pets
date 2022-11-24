@@ -296,16 +296,65 @@ header .menu-toggle {
 }
 
 /* COMMENTS */
-.content .main-content.comments {
+.content .main-content.comments{
     width: 100%;
-    padding: 0% 5%;
-    border: 1px solid green;
-    background: white;
+    padding-bottom: 20px;
+}
+
+.content .main-content.comments .title {
+    text-align: center;
+    color: #45342a;
+    font-size: 1.1em;
+}
+
+.content .main-content.comments form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.content .main-content.comments form .top{
+    display: flex;
+    justify-content: center;
+}
+
+.content .main-content.comments form .top input{
+    margin: 1%;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 35%;
+    border: none;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.content .main-content.comments form textarea{
+    margin: 1%;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 72%;
+    font-family: 'Roboto Slab', sans-serif;
+    border: none;
+}
+
+.content .main-content.comments form input[type="button"] {
+    color: #45342a;
+    width: 72%;
+    height: 40px;
+    box-sizing: border-box;
+    align-self: center;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.1em;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 .content .main-content.comments .comment-box {
+    width: 80%;
     padding: 2%;
     border: 1px solid red;
+    margin: 0 auto;
 }
 
 .content .main-content.comments .comment-box.clearfix {
@@ -330,25 +379,6 @@ header .menu-toggle {
     margin: 0px;
     padding-left: 5px;
 } */
-
-.content .main-content.comments .comment-form {
-    width: 100%;
-    margin: 20px auto;
-    padding: 2% 5%;
-    border: solid 1px blue;
-}
-
-.content .main-content.comments .comment-form input, .content .main-content.comments .comment-form textarea {
-    width: 100%;
-    padding: 2px;
-}
-
-.content .main-content.comments .comment-form input[type="button"] {
-    margin-top: 15px;
-    height: 35px;
-    font-size: 1.1em;
-    font-family: 'Roboto Slab', sans-serif;
-}
 
 /* SIDEBAR */
 
