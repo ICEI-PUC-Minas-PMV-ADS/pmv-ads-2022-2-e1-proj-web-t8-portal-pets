@@ -319,11 +319,18 @@ header .menu-toggle {
     justify-content: center;
 }
 
-.content .main-content.comments form .top input{
+.content .main-content.comments form .top .comment-input {
+    display: block;
     margin: 1%;
-    padding: 15px;
     box-sizing: border-box;
     width: 35%;
+    height: 50px;
+}
+
+.content .main-content.comments form .top .comment-input input {
+    padding: 15px;
+    width: 100%;
+    height: 100%;
     border: none;
     font-family: 'Roboto Slab', sans-serif;
 }
@@ -348,6 +355,28 @@ header .menu-toggle {
     margin-right: 10px;
     font-size: 1.1em;
     font-family: 'Roboto Slab', sans-serif;
+}
+
+.content .main-content.comments form .top .comment-input span {
+    position: absolute;
+    margin-left: -7.1%;
+    margin-top: 3.5%;
+    font-size: .6em;
+    color: red;
+}
+
+.content .main-content.comments form .bottom span {
+    position: absolute;
+    margin-left: -7.7%;
+    margin-top: 9.5%;
+    font-size: .6em;
+    color: red;
+}
+
+.content .main-content.comments form span {
+    position: relative;
+    font-size: .7em;
+    color: red;
 }
 
 .content .main-content.comments .comment-box {

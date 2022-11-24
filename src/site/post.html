@@ -65,22 +65,6 @@
                 </div>
 
                 <!-- Comments -->
-                <!-- <div class="main-content comments">
-                    <h1 class="comments-title">Comentários</h1>
-                    <div class="comment-form">
-                        <div class="comment-input">
-                            <input type="text" id="name" placeholder="Nome">
-                            <input type="email" id="email" placeholder="E-mail">
-
-                        </div>
-                        Nome Completo: <input type="text" id="name"> <br>
-                        Email: <input type="email" id="email"> <br>
-                        Comentário: <textarea name="comment" id="text" cols="30" rows="5"></textarea> <br>
-                        <input type="button" id="addComment" value="Comentar">
-                    </div>
-                </div> -->
-                <!-- // Comments -->
-
                 <div class="main-content comments">
                     <div class="title">
                         <h1>Comentários</h1>
@@ -88,16 +72,25 @@
                     </div>
                     <form action="">
                         <div class="top">
-                            <input type="text" id="name" placeholder="Seu nome">
-                            <input type="email" id="email" placeholder="Seu e-mail">
+                            <div class="comment-input">
+                                <input type="text" id="name" placeholder="Seu nome">
+                                <span class="name-error">* campo obrigatório</span>
+                            </div>
+                            <div class="comment-input">
+                                <input type="email" id="email" placeholder="Seu e-mail">
+                                <span class="email-error">* campo obrigatório</span>
+                            </div>
                         </div>
                         <div class="bottom">
                             <textarea name="comment" id="text" cols="30" rows="5" placeholder="Escreva seu comentário"></textarea>
+                            <span class="comment-error">* campo obrigatório</span>
                         </div>
                         <br>
                         <input type="button" id="addComment" value="Comentar">
+                        <span class="button-error">* campos obrigatórios não preenchidos</span>
                     </form>
                 </div>
+                <!-- // Comments -->
             </div>
             <!-- // Main Content -->
 
