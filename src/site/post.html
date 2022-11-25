@@ -73,21 +73,21 @@
                     <form action="">
                         <div class="top">
                             <div class="comment-input">
-                                <input type="text" id="name" placeholder="Seu nome">
-                                <span class="name-error">* campo obrigatório</span>
+                                <input type="text" id="name" placeholder="Seu nome" onkeyup="validateName()">
+                                <span id="name-error"></span>
                             </div>
                             <div class="comment-input">
-                                <input type="email" id="email" placeholder="Seu e-mail">
-                                <span class="email-error">* campo obrigatório</span>
+                                <input type="email" id="email" placeholder="Seu e-mail" onkeyup="validateEmail()">
+                                <span id="email-error"></span>
                             </div>
                         </div>
                         <div class="bottom">
-                            <textarea name="comment" id="text" cols="30" rows="5" placeholder="Escreva seu comentário"></textarea>
-                            <span class="comment-error">* campo obrigatório</span>
+                            <textarea name="text" id="text" cols="30" rows="5" placeholder="Escreva seu comentário" onkeyup="validateText()"></textarea>
+                            <span id="text-error"></span>
                         </div>
                         <br>
                         <input type="button" id="addComment" value="Comentar">
-                        <span class="button-error">* campos obrigatórios não preenchidos</span>
+                        <span id="button-error"></span>
                     </form>
                 </div>
                 <!-- // Comments -->
@@ -126,8 +126,8 @@
                     <h2>Compartilhe</h2>
                     <!-- Icones -->
                     <ul>
-                        <a href="#" target="_blank" style="color: #3b5998;" class="fa-brands fa-square-facebook fa-2x"></a>
-                        <a href="#" target="_blank" style="color: #1da1f2;" class="fa-brands fa-square-twitter fa-2x"></a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://amigo-pet.herokuapp.com/pages/post.html" target="_blank" style="color: #3b5998;" class="fa-brands fa-square-facebook fa-2x"></a>
+                        <a href="https://twitter.com/intent/tweet?url=https://amigo-pet.herokuapp.com/pages/post.html" target="_blank" style="color: #1da1f2;" class="fa-brands fa-square-twitter fa-2x"></a>
                     </ul>
                 </div>
             </div>
