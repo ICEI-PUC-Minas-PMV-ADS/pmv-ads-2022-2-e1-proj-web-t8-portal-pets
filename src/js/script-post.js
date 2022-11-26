@@ -37,7 +37,7 @@ function addComment(comments) {
 }
 
 function showComments(data) {
-  var html = "<div class='comment-box clearfix'><img src='https://via.placeholder.com/100' alt=''><div class='comment-content'><span class='comment-name'>"+data.name+"</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class='comment-date'>"+data.date+"</span><p class='comment-text'>"+data.text+"</p></div></div>";
+  var html = "<div class='comment-box clearfix'><img src='https://via.placeholder.com/100' alt=''><div class='comment-content'><span class='comment-name'>"+data.name+"</span><span class='comment-date'>"+data.date+"</span><p class='comment-text'>"+data.text+"</p></div></div>";
   $(".comments").append(html);
 }
 
