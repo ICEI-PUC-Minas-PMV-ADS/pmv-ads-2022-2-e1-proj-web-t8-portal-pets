@@ -416,7 +416,7 @@ header .menu-toggle {
     width: 10%;
     height: auto;
     float: left;
-    border-radius: 100%;
+    border-radius: 5%;
 }
 
 .content .main-content.comments .comment-box p{

@@ -24,7 +24,8 @@ function addComment(comments) {
       name: $("#name").val(),
       email: $("#email").val(),
       text: $("#text").val(),
-      date: today()
+      date: getToday(),
+      img: getImage()
     };
     comments.push(comment);
     window.localStorage.commentsData = JSON.stringify(comments);
@@ -37,17 +38,23 @@ function addComment(comments) {
 }
 
 function showComments(data) {
-  var html = "<div class='comment-box clearfix'><img src='https://via.placeholder.com/100' alt=''><div class='comment-content'><span class='comment-name'>"+data.name+"</span><span class='comment-date'>"+data.date+"</span><p class='comment-text'>"+data.text+"</p></div></div>";
+  var html = "<div class='comment-box clearfix'><img src="+data.img+" alt=''><div class='comment-content'><span class='comment-name'>"+data.name+"</span><span class='comment-date'>"+data.date+"</span><p class='comment-text'>"+data.text+"</p></div></div>";
   $(".comments").append(html);
 }
 
-function today() {
+function getToday() {
   var today = new Date();
   var dd = String(today.getDate()).padStart(2, '0');
   var mm = String(today.getMonth() + 1).padStart(2, '0');
   var yyyy = today.getFullYear();
   
   return dd + '/' + mm + '/' + yyyy;
+}
+
+function getImage() {
+  var images = ["../img/avatar/avatar1.jpg", "../img/avatar/avatar2.jpg", "../img/avatar/avatar3.jpg", "../img/avatar/avatar4.jpg", "../img/avatar/avatar5.jpg"
+  , "../img/avatar/avatar6.jpg", "../img/avatar/avatar7.jpg", "../img/avatar/avatar8.jpg", "../img/avatar/avatar9.jpg", "../img/avatar/avatar10.jpg"];
+  return images[Math.floor(Math.random() * images.length)];
 }
 
 function cleanParameters() {  
