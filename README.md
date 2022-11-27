@@ -41,7 +41,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* https://amigo-pet.herokuapp.com/
+* [Amigo Pet](https://amigo-pet.herokuapp.com/)
 
 # Armazenamento do Código-Fonte
 
