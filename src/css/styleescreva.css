@@ -43,6 +43,7 @@ a {
 .text-input {
     padding: .7rem 1rem;
     display: block;
+    max-width: 100%;
     width: 100%;
     border-radius: 5px;
     border: 1px solid #d3d3d3;
@@ -117,7 +118,11 @@ header .menu-toggle {
 /* TESTE POST */
 
 .tituloescreva {
-    margin-left: 890px;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     margin-top: 10vh;
     margin-bottom: -28vh;
 }
@@ -126,12 +131,14 @@ header .menu-toggle {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
     width: 100%;
     height: 99vh;
     
 }
 
 .form-container .form-wrap {
+    max-width: 100%;
     width: 70%;
     background-color: #fff;
     border-radius: 2px;
@@ -151,12 +158,14 @@ header .menu-toggle {
 .form-container .form-wrap .form-box input[type="text"] {
     padding: 4px 9px;
     width: 100%;
+    max-width: 100%;
     border: 1px solid #3b3b3b;
     border-radius: 3px;
 }
 
 .form-container .form-wrap .form-box textarea {
     width: 100%;
+    max-width: 100%;
     height: 250px;
     padding: 4px 9px;
     border: 1px solid #3b3b3b;
@@ -184,13 +193,15 @@ header .menu-toggle {
     justify-content: center;
     align-items: center;
     width: 100%;
+    max-width: 100%;
     height: 99vh;
-    margin-top: -46vh;
+    margin-top: -35vh;
     
 }
 
 .form-container2 .form-wrap {
     width: 70%;
+    max-width: 100%;
     background-color: #fff;
     border-radius: 2px;
     padding: 10px 14px;
@@ -209,12 +220,14 @@ header .menu-toggle {
 .form-container2 .form-wrap .form-box input[type="text"] {
     padding: 4px 9px;
     width: 100%;
+    max-width: 100%;
     border: 1px solid #3b3b3b;
     border-radius: 3px;
 }
 
 .form-container2 .form-wrap .form-box textarea {
     width: 100%;
+    max-width: 100%;
     height: 250px;
     padding: 4px 9px;
     border: 1px solid #3b3b3b;
@@ -327,6 +340,9 @@ footer .footer-row a{
     header .logo {
         margin-left: .5em;
     }
+
+
+    
 }
 @media only screen and (max-width:720px){
     .footer{
