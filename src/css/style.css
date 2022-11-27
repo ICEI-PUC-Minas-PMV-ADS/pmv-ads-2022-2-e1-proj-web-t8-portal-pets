@@ -195,38 +195,9 @@ header .menu-toggle {
     float: left;
 }
 
-.content .main-content.post {
-    background: white;
-    padding: 20px 50px;
-    font-size: 1.1em;
-}
-
-.content .main-content.post .post-content { 
-    text-align: justify;
-    color: #45342a;
-}
-
-.content .main-content.post .post-title {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.content .main-content.post .fa-user, .content .main-content.post .fa-calendar{
-    padding: 10px;
-    margin-top: 20px;
-    font-size: .9em;
-    font-weight: bold;
-    color: #45342a;
-}
-
-.content .main-content.post span{
-    font-family: 'Roboto Slab', sans-serif;
-    font-size: 1.2em;
-}
-
-.content .main-content.post img {
-    width: 100%;
-    height: 450px;
+.content .main-content-wrapper {
+    width: 70%;
+    float: left;
 }
 
 .content .main-content .recent-post-title {
@@ -286,6 +257,171 @@ header .menu-toggle {
     width: 50%;
     float: right;
     padding: 10px 10px 10px 20px;
+}
+
+/* POST */
+.content .main-content.post {
+    width: 100%;
+    background: white;
+    padding: 20px 50px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.content .main-content.post .post-content { 
+    text-align: justify;
+    color: #45342a;
+}
+
+.content .main-content.post .post-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.content .main-content.post .fa-user, .content .main-content.post .fa-calendar{
+    padding: 10px;
+    margin-top: 20px;
+    font-size: .9em;
+    font-weight: bold;
+    color: #45342a;
+}
+
+.content .main-content.post span{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 1.2em;
+}
+
+.content .main-content.post img {
+    width: 100%;
+    height: 450px;
+}
+
+/* COMMENTS */
+.content .main-content.comments{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.content .main-content.comments .title {
+    text-align: center;
+    color: #45342a;
+    font-size: 1.1em;
+}
+
+.content .main-content.comments form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.content .main-content.comments form .top{
+    display: flex;
+    justify-content: center;
+}
+
+.content .main-content.comments form .top .comment-input {
+    display: block;
+    margin: 1%;
+    box-sizing: border-box;
+    width: 35%;
+    height: 50px;
+}
+
+.content .main-content.comments form .top .comment-input input {
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.content .main-content.comments form textarea{
+    margin: 1%;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 72%;
+    font-family: 'Roboto Slab', sans-serif;
+    border: none;
+}
+
+.content .main-content.comments form input[type="button"] {
+    color: #45342a;
+    width: 72%;
+    height: 40px;
+    box-sizing: border-box;
+    align-self: center;
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.1em;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.content .main-content.comments form .top .comment-input span {
+    position: absolute;
+    margin-left: -7.1%;
+    margin-top: 3.5%;
+    font-size: .6em;
+    color: red;
+}
+
+.content .main-content.comments form .bottom span {
+    position: absolute;
+    margin-left: -7.7%;
+    margin-top: 9.5%;
+    font-size: .6em;
+    color: red;
+}
+
+.content .main-content.comments form span {
+    position: relative;
+    font-size: .7em;
+    color: red;
+}
+
+.content .main-content.comments .comment-box {
+    width: 80%;
+    padding: 2%;
+    border-bottom: 3px solid #d3d3d3;
+    margin: 0 auto;
+    background: white;
+}
+
+.content .main-content.comments .comment-box.clearfix {
+    clear: both;
+}
+
+.content .main-content.comments .comment-box .comment-content{
+    width: 89%;
+    float: left;
+    padding-left: 3%;
+    font-size: 16px;
+    color: #45342a;
+}
+
+.content .main-content.comments .comment-box .comment-content .comment-name{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.content .main-content.comments .comment-box .comment-content .comment-date{
+    float: right;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ff6f00;
+    padding-right: 10px;
+}
+
+.content .main-content.comments .comment-box img {
+    width: 10%;
+    height: auto;
+    float: left;
+    border-radius: 5%;
+}
+
+.content .main-content.comments .comment-box p{
+    padding-right: 10px;
 }
 
 /* SIDEBAR */
