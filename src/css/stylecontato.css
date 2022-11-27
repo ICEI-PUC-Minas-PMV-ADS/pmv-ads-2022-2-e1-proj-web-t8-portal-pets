@@ -189,11 +189,13 @@ header .menu-toggle {
 .content {
     width: 90%;
     margin: 30px auto 30px;
+    
 }
 
 .content .main-content {
     width: 70%;
     float: left;
+    
 }
 
 .content .main-content.post {
@@ -242,6 +244,8 @@ header .menu-toggle {
     margin-left: 530px;
     margin-bottom: 4vh;
     font-size: 40px;
+    display: flex;
+    max-width: 100%;
 }
 
 .content .main-content .post {
@@ -251,7 +255,8 @@ header .menu-toggle {
     margin-bottom: 3vh;
     border-radius: 5px;
     background: #f6f6f6;
-    position: relative;
+    display: flex;
+    max-width: 100%;
 }
 
 .content .main-content .post .post-preview .fa-user, .content .main-content .post .post-preview .fa-calendar{
