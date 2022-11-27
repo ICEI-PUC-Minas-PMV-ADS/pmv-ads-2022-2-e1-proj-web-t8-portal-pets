@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5a60c17890.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="/src/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Icones fontawesome -->
+    <script src="https://kit.fontawesome.com/63945b446a.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Comfortaa:wght@300;400;500&family=Indie+Flower&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Pacifico&family=Quicksand:wght@500;600&family=Roboto+Slab:wght@200;300;400;500;600;700;800&family=Satisfy&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <title>Amigo Pet | Post</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="logo-text">Amigo <span>Pet</span></h1>               
+        </div>
+            
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav">
+            <li><a href="/src/home.html">Início</a></li>
+            <li><a href="/src/site/escreva.html">Escreva</a></li>
+            <li><a href="/src/site/quem-somos.html">Quem somos</a></li>
+            <li><a href="/src/site/contato.html">Contato</a></li>
+        </ul>
+        
+    </header>
+     
+
+    <!-- Page Wrapper -->
+    <div class="page-wrapper">
+
+        <!-- Content -->
+        <div class="content clearfix">
+
+            <!-- Main Content -->
+            <div class="main-content-wrapper">
+                <div class="main-content post">
+                    <h1 class="post-title">Melhor horário para passear com seu pet</h1>
+                    <img src="/src/img/dog-1.png" alt="" class="post-image">
+                    <i class="fas fa-user"><span> Amigo Pet</span></i>
+                    &nbsp;
+                    <i class="far fa-calendar"><span> 30/10/2022</span></i>
+                    <div class="post-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sunt vero blanditiis at fugit aliquam accusamus repellendus nostrum non eligendi?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magni alias assumenda reiciendis. Fugit laboriosam tenetur explicabo necessitatibus nam voluptas eaque veritatis! Soluta facere beatae aliquam quaerat neque numquam exercitationem!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A saepe placeat quibusdam hic sapiente, dicta accusantium qui iste eius rem esse dignissimos distinctio asperiores aut, ipsam minus possimus labore eligendi non. Dicta amet mollitia iure, fugiat enim reprehenderit ratione corporis.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, odio!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus sunt vero blanditiis at fugit aliquam accusamus repellendus nostrum non eligendi?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi magni alias assumenda reiciendis. Fugit laboriosam tenetur explicabo necessitatibus nam voluptas eaque veritatis! Soluta facere beatae aliquam quaerat neque numquam exercitationem!</p>
+                    </div>
+                </div>
+
+                <!-- Comments -->
+                <div class="main-content comments">
+                    <div class="title">
+                        <h1>Comentários</h1>
+                        <p>Deixe aqui a sua opinião sobre a postagem!</p>
+                    </div>
+                    <form action="">
+                        <div class="top">
+                            <div class="comment-input">
+                                <input type="text" id="name" placeholder="Seu nome" onkeyup="validateName()">
+                                <span id="name-error"></span>
+                            </div>
+                            <div class="comment-input">
+                                <input type="email" id="email" placeholder="Seu e-mail" onkeyup="validateEmail()">
+                                <span id="email-error"></span>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <textarea name="text" id="text" cols="30" rows="5" placeholder="Escreva seu comentário" onkeyup="validateText()"></textarea>
+                            <span id="text-error"></span>
+                        </div>
+                        <br>
+                        <input type="button" id="addComment" value="Comentar">
+                        <span id="button-error"></span>
+                    </form>
+                </div>
+                <!-- // Comments -->
+            </div>
+            <!-- // Main Content -->
+
+            <!-- Sidebar -->
+            <div class="sibebar post">
+
+                <div class="section related">
+                    <h2>Posts Relacionados</h2>
+                    <div class="post clearfix">
+                        <img src="/src/img/dog-2.png" alt="">
+                        <a href="../posts/por-que-os-cachorros-fogem.html" class="post-title">Por que cachorros fogem?</a>
+                    </div>
+                    <div class="post clearfix">
+                        <img src="/src/img/dog-3.png" alt="">
+                        <a href="../posts/por-que-os-cachorros-fogem.html" class="post-title">Cuidados básicos para o seu cachorro</a>
+                    </div>
+                    <div class="post clearfix">
+                        <img src="/src/img/cat-2.png" alt="">
+                        <a href="../posts/beneficios-de-escovar-o-seu-gato.html" class="post-title">Benefícios de escovar o seu gato</a>
+                    </div>
+                </div>
+
+                <div class="section projects">
+                    <h2>Projetos e Ações</h2>      
+                    <ul>
+                        <li><a href="https://abrigobalaiodegato.com.br/" target="_blank">Leve um Balaio de Gato! <i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><a href="https://www.asaseamigos.com.br/" target="_blank">Asas e Amigos <i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><a href="https://www.instagram.com/ministerioarcadenoeoficial/" target="_blank">Arca de Noé <i class="fa-solid fa-arrow-right"></i></a></li>
+                    </ul>
+                </div>
+        
+                <div class="section social">
+                    <h2>Compartilhe</h2>
+                    <!-- Icones -->
+                    <ul>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://amigo-pet.herokuapp.com/site/post.html" target="_blank" style="color: #3b5998;" class="fa-brands fa-square-facebook fa-2x"></a>
+                        <a href="https://twitter.com/intent/tweet?url=https://amigo-pet.herokuapp.com/site/post.html" target="_blank" style="color: #1da1f2;" class="fa-brands fa-square-twitter fa-2x"></a>
+                    </ul>
+                </div>
+            </div>
+            <!--// Sidebar-->
+
+        </div>
+        <!-- // Content -->
+
+    </div>
+    <!-- // Page Wrapper -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-row">
+            <h1 class="logo-text">Amigo <span>Pet</span></h1> 
+        </div>
+
+        <div class="footer-row">
+            <ul>
+                <li><a href="/src/home.html">Início</a></li>
+                <li><a href="/src/site/escreva.html">Escreva</a></li>
+                <li><a href="/src/site/quem-somos.html">Quem somos</a></li>
+                <li><a href="/src/site/contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-row">
+            <a href="https://www.facebook.com/profile.php?id=100088056617994"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/AAmigopet"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/amigo-pet-024828258/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t8-portal-pets"><i class="fa fa-github"></i></a>
+        </div>
+
+        <div class="footer-row">
+            <p>Amigo Pet &copy; 2022 | All rights reserved </p>
+        </div>
+    </footer>
+    <!-- // Footer -->
+        
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Custom Script -->
+    <script src="/src/js/script-post.js"></script>        
+</body>
+</html>
