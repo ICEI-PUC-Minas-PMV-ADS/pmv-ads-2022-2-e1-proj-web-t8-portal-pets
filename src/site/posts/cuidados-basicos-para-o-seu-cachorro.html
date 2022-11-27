@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/5a60c17890.js" crossorigin="anonymous"></script>
 
     <!-- Custom Style -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="/src/css/style.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,8 +20,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Candal&family=Comfortaa:wght@300;400;500&family=Indie+Flower&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Pacifico&family=Quicksand:wght@500;600&family=Roboto+Slab:wght@200;300;400;500;600;700;800&family=Satisfy&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-    <!-- TODO: alterar esse título -->
-    <title>Post</title>
+    <title>Amigo Pet | Post</title>
 </head>
 <body>
     <header>
@@ -31,10 +30,10 @@
             
         <i class="fa fa-bars menu-toggle"></i>
         <ul class="nav">
-            <li><a href="../home.html">Início</a></li>
-            <li><a href="escreva.html">Escreva</a></li>
-            <li><a href="quemsomos.html">Quem somos</a></li>
-            <li><a href="contato.html">Contato</a></li>
+            <li><a href="/src/home.html">Início</a></li>
+            <li><a href="/src/site/escreva.html">Escreva</a></li>
+            <li><a href="/src/site/quem-somos.html">Quem somos</a></li>
+            <li><a href="/src/site/contato.html">Contato</a></li>
         </ul>
         
     </header>
@@ -47,18 +46,49 @@
         <div class="content clearfix">
 
             <!-- Main Content -->
-            <div class="main-content post">
-                <h1 class="post-title">Cuidados básicos para o seu cachorro</h1>
-                <img src="../img/dog-3.png" alt="" class="post-image">
-                <i class="fas fa-user"><span> Amigo Pet</span></i>
-                &nbsp;
-                <i class="far fa-calendar"><span> 30/10/2022</span></i>
-                <div class="post-content">
-                    <p>Os cães precisam de todas as vacinas em dia para garantir a imunidade a muitas doenças caninas essa é uma maneira de evitar que seu cão fique doente e Permita que ele interaja com outros animais e visite novos lugares sem problemas posteriores.</p>
-                    <p>Os veterinários são especialistas em saúde animal de estimação, por isso é importante trazer seu cão para vê-lo com frequência. A prática mais recomendada é marcar uma consulta a cada três meses ou, no máximo, a cada seis meses, mesmo que o cachorro não esteja apresentando nenhum sintoma da doença. </p>
-                    <p>É muito importante levar seu cão para passear todos os dias, ou pelo menos algumas vezes por semana. É vital para a saúde do animal e é importante para a pele, cabelo e ossos.</p>
-                    
+            <div class="main-content-wrapper">
+                <div class="main-content post">
+                    <h1 class="post-title">Cuidados básicos para o seu cachorro</h1>
+                    <img src="../img/dog-3.png" alt="" class="post-image">
+                    <i class="fas fa-user"><span> Amigo Pet</span></i>
+                    &nbsp;
+                    <i class="far fa-calendar"><span> 30/10/2022</span></i>
+                    <div class="post-content">
+                        <p>Os cães precisam de todas as vacinas em dia para garantir a imunidade a muitas doenças caninas essa é uma maneira de evitar que seu cão fique doente e Permita que ele interaja com outros animais e visite novos lugares sem problemas posteriores.</p>
+                        <p>Os veterinários são especialistas em saúde animal de estimação, por isso é importante trazer seu cão para vê-lo com frequência. A prática mais recomendada é marcar uma consulta a cada três meses ou, no máximo, a cada seis meses, mesmo que o cachorro não esteja apresentando nenhum sintoma da doença. </p>
+                        <p>É muito importante levar seu cão para passear todos os dias, ou pelo menos algumas vezes por semana. É vital para a saúde do animal e é importante para a pele, cabelo e ossos.</p>
+                        
+                    </div>
                 </div>
+
+                <!-- Comments -->
+                <div class="main-content comments">
+                    <div class="title">
+                        <h1>Comentários</h1>
+                        <p>Deixe aqui a sua opinião sobre a postagem!</p>
+                    </div>
+                    <form action="">
+                        <div class="top">
+                            <div class="comment-input">
+                                <input type="text" id="name" placeholder="Seu nome" onkeyup="validateName()">
+                                <span id="name-error"></span>
+                            </div>
+                            <div class="comment-input">
+                                <input type="email" id="email" placeholder="Seu e-mail" onkeyup="validateEmail()">
+                                <span id="email-error"></span>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <textarea name="text" id="text" cols="30" rows="5" placeholder="Escreva seu comentário" onkeyup="validateText()"></textarea>
+                            <span id="text-error"></span>
+                        </div>
+                        <br>
+                        <input type="button" id="addComment" value="Comentar">
+                        <span id="button-error"></span>
+                    </form>
+                </div>
+                <!-- // Comments -->
+
             </div>
             <!-- // Main Content -->
 
@@ -69,15 +99,15 @@
                 <div class="section related">
                     <h2>Posts Relacionados</h2>
                     <div class="post clearfix">
-                        <img src="../img/dog-2.png" alt="">
+                        <img src="/src/img/dog-2.png" alt="">
                         <a href="#" class="post-title">Por que cachorros fogem?</a>
                     </div>
                     <div class="post clearfix">
-                        <img src="../img/dog-3.png" alt="">
+                        <img src="/src/img/dog-3.png" alt="">
                         <a href="#" class="post-title">Cuidados básicos para o seu cachorro</a>
                     </div>
                     <div class="post clearfix">
-                        <img src="../img/cat-2.png" alt="">
+                        <img src="/src/img/cat-2.png" alt="">
                         <a href="#" class="post-title">Benefícios de escovar o seu gato</a>
                     </div>
                 </div>
@@ -92,11 +122,11 @@
                 </div>
         
                 <div class="section social">
-                    <h2>Redes Sociais</h2>
+                    <h2>Compartilhe</h2>
                     <!-- Icones -->
                     <ul>
-                        <a href="#" target="_blank" style="color: #3b5998;" class="fa-brands fa-square-facebook fa-2x"></a>
-                        <a href="#" target="_blank" style="color: #1da1f2;" class="fa-brands fa-square-twitter fa-2x"></a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=https://amigo-pet.herokuapp.com/site/posts/cuidados-basicos-para-o-seu-cachorro.html" target="_blank" style="color: #3b5998;" class="fa-brands fa-square-facebook fa-2x"></a>
+                        <a href="https://twitter.com/intent/tweet?url=https://amigo-pet.herokuapp.com/site/posts/cuidados-basicos-para-o-seu-cachorro.html" target="_blank" style="color: #1da1f2;" class="fa-brands fa-square-twitter fa-2x"></a>
                     </ul>
                 </div>
             </div>
@@ -116,10 +146,10 @@
 
         <div class="footer-row">
             <ul>
-                <li><a href="../home.html">Início</a></li>
-                <li><a href="escreva.html">Escreva</a></li>
-                <li><a href="quemsomos.html">Quem somos</a></li>
-                <li><a href="contato.html">Contato</a></li>
+                <li><a href="/src/home.html">Início</a></li>
+                <li><a href="/src/site/escreva.html">Escreva</a></li>
+                <li><a href="/src/site/quem-somos.html">Quem somos</a></li>
+                <li><a href="/src/site/contato.html">Contato</a></li>
             </ul>
         </div>
 
@@ -140,6 +170,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- Custom Script -->
-    <script src="../js/script.js"></script>        
+    <script src="/src/js/script-post.js"></script>           
 </body>
 </html>
