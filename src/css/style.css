@@ -293,7 +293,7 @@ header .menu-toggle {
 
 .content .main-content.post img {
     width: 100%;
-    height: 450px;
+    height: 20%;
 }
 
 /* COMMENTS */
@@ -571,6 +571,15 @@ footer .footer-row a{
 
     .content .sibebar {
         margin-top: -80px;
+        width: 100%;
+    }
+
+    .content .main-content-wrapper {
+        width: 100%;
+    }
+
+    .content .sibebar.post {
+        margin: auto;
         width: 100%;
     }
 }
