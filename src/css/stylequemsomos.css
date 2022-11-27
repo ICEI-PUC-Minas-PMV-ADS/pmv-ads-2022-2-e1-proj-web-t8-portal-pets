@@ -114,7 +114,6 @@ header .menu-toggle {
 
 /* CONTENT */
 .content {
-    display: flex;
     width: 90%;
     margin: 5%;
 }
