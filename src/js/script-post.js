@@ -52,8 +52,8 @@ function getToday() {
 }
 
 function getImage() {
-  var images = ["/src/img/avatar/avatar1.jpg", "/src/img/avatar/avatar2.jpg", "/src/img/avatar/avatar3.jpg", "/src/img/avatar/avatar4.jpg", "/src/img/avatar/avatar5.jpg"
-  , "/src/img/avatar/avatar6.jpg", "/src/img/avatar/avatar7.jpg", "/src/img/avatar/avatar8.jpg", "/src/img/avatar/avatar9.jpg", "/src/img/avatar/avatar10.jpg"];
+  var images = ["../../img/avatar/avatar1.jpg", "../../img/avatar/avatar2.jpg", "../../img/avatar/avatar3.jpg", "../../img/avatar/avatar4.jpg", "../../img/avatar/avatar5.jpg"
+  , "../../img/avatar/avatar6.jpg", "../../img/avatar/avatar7.jpg", "../../img/avatar/avatar8.jpg", "../../img/avatar/avatar9.jpg", "../../img/avatar/avatar10.jpg"];
   return images[Math.floor(Math.random() * images.length)];
 }
 
