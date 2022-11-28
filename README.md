@@ -21,7 +21,7 @@ Neste trabalho faremos a criação de um portal de notícias que permita o acess
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Usando a IDE VSCode, baixar o plugin *Live Server* e clicar na função *Go Live* do plugin. Dessa forma o site será executada localmente. 
 
 # Documentação
 
