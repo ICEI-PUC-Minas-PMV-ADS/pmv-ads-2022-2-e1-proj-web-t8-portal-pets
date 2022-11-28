@@ -43,7 +43,7 @@ Ao abrir um post do site o usuário se depara com uma tela contento o texto comp
 - RF-03: O site deve permitir ao usuário visualizar o texto completo da postagem ao clicá-la.
 
 ### Artefatos de Funcionalidade
-- [Post](https://amigo-pet.herokuapp.com/site/post.html)
+- [Post](https://amigo-pet.herokuapp.com/site/posts/gatos-e-bebes.html)
 - style.css
 
 
@@ -63,9 +63,23 @@ Carrossel de postagens contendo 6 posts escolhidos para se destacarem na tela pr
 - /img/
 - script.js
 
+
+
+## Tela de Contato (RF-06)
+
+Tela com informações de contato com os mantenedores do site
+
+![rf06](img/rf/rf-06.png)
+
 ### Requisitos Atendidos 
-- RF 06-O site deve permitir visualizar as informações de contatos do mantenedor do site.
-![Home](https://user-images.githubusercontent.com/90425477/204177013-10b99630-6940-4a5b-8dfd-6d289849fe1c.png)
+- RF-06: O site deve permitir visualizar as informações de contatos do mantenedor do site.
+
+### Artefatos de Funcionalidade
+- [Contato](https://amigo-pet.herokuapp.com/site/contato.html)
+- stylecontato.css
+- /img/
+- script-site.js
+
 
 
 ## Sidebar - Compartilhe (RF-07)
@@ -93,9 +107,27 @@ Seção no final do texto de um post com espaço para o usuário escrever um com
 - RF-09: O site deve exibir os comentários registrados ao final da postagem.
 
 ### Artefatos de Funcionalidade
-- [Post](https://amigo-pet.herokuapp.com/site/post.html)
+- [Post](https://amigo-pet.herokuapp.com/site/posts/gatos-e-bebes.html)
 - style.css
 - script-post.js
+
+
+
+## Tela Escreva (RF-10 e RF-14)
+
+Tela para divulgação de Projetos Sociais e/ou ONGs.
+
+![rf1014](img/rf/rf-10-14.png)
+
+
+### Requisitos Atendidos 
+- RF-10: O site deve permitir divulgação de adoções.
+- Rf-14: O site deve permitir aos usuários compartilharem projetos sociais em prol dos animais.
+
+### Artefatos de Funcionalidade
+- [Escreva](https://amigo-pet.herokuapp.com/site/escreva.html)
+- styleescreva.css
+- script-escreva.js
 
 
 
@@ -127,9 +159,7 @@ Sidebar mostrando alguns links de Projetos e Ações ( ONGs )
 - [Home](https://amigo-pet.herokuapp.com/home.html)
 - style.css
 
-### Requisitos Atendidos 
-RF 14-O site deve permitir aos usuários compartilharem projetos sociais em prol dos animais.
-![Home](https://user-images.githubusercontent.com/90425477/204177793-ae4014bf-f324-4751-998a-694cf4450c46.png)
+
 
 ## Sidebar - Postagens Relacionadas (RF-15)
 Sidebar mostrando alguns links de outras postagens que são relacionadas com a que ele leu
