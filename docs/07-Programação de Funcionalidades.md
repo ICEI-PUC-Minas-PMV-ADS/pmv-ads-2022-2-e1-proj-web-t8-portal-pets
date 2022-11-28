@@ -107,11 +107,6 @@ Cabeçalho padrão para as telas de visualização do site. Ele funciona como at
 
 
 ### Requisitos Atendidos 
-RF 10-O site deve permitir divulgação de adoções.
-![home](https://user-images.githubusercontent.com/90425477/204177793-ae4014bf-f324-4751-998a-694cf4450c46.png)
-
-
-### Requisitos Atendidos 
 - RF-12: O site deve possuir um painel com atalhos dos principais tópicos
 
 ### Artefatos de Funcionalidade
@@ -132,7 +127,9 @@ Sidebar mostrando alguns links de Projetos e Ações ( ONGs )
 - [Home](https://amigo-pet.herokuapp.com/home.html)
 - style.css
 
-
+### Requisitos Atendidos 
+RF 14-O site deve permitir aos usuários compartilharem projetos sociais em prol dos animais.
+![Home](https://user-images.githubusercontent.com/90425477/204177793-ae4014bf-f324-4751-998a-694cf4450c46.png)
 
 ## Sidebar - Postagens Relacionadas (RF-15)
 Sidebar mostrando alguns links de outras postagens que são relacionadas com a que ele leu
