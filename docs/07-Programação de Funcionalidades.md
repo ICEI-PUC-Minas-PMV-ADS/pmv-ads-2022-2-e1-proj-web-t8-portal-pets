@@ -63,6 +63,9 @@ Carrossel de postagens contendo 6 posts escolhidos para se destacarem na tela pr
 - /img/
 - script.js
 
+### Requisitos Atendidos 
+- RF 06-O site deve permitir visualizar as informações de contatos do mantenedor do site.
+![Home](https://user-images.githubusercontent.com/90425477/204177013-10b99630-6940-4a5b-8dfd-6d289849fe1c.png)
 
 
 ## Sidebar - Compartilhe (RF-07)
@@ -101,6 +104,12 @@ Seção no final do texto de um post com espaço para o usuário escrever um com
 Cabeçalho padrão para as telas de visualização do site. Ele funciona como atalho de navegação para pontos chaves do portal. Esse menu tem uma regra para telas menores onde as funcionalidades do menu ficam escondidas e só aparecem ao clicar nas 3 listras
 
 ![rf12](img/rf/rf-12.png)
+
+
+### Requisitos Atendidos 
+RF 10-O site deve permitir divulgação de adoções.
+![home](https://user-images.githubusercontent.com/90425477/204177793-ae4014bf-f324-4751-998a-694cf4450c46.png)
+
 
 ### Requisitos Atendidos 
 - RF-12: O site deve possuir um painel com atalhos dos principais tópicos
