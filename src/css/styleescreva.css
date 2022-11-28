@@ -114,174 +114,85 @@ header .menu-toggle {
     color: orange;
 }
 
+/* FORM */
 
-/* TESTE POST */
+.main-content {
+    margin-top: 30px;
+}
 
-.popup-wrapper {
-    background: rgba(0, 0, 0, .5);
-    position: fixed;
-    top: 0;
-    left: 0;
+.main-content .form-container{
+    width: 60%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.main-content .form-container .title {
+    text-align: center;
+    color: #45342a;
+    font-size: 1em;
+}
+
+.main-content .form-container form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.main-content .form-container form .top{
+    display: flex;
+    justify-content: center;
+}
+
+.main-content .form-container form .top .comment-input {
+    display: block;
+    margin: 1%;
+    box-sizing: border-box;
+    width: 50%;
+    height: 50px;
+}
+
+.main-content .form-container form .top .comment-input input {
+    padding: 15px;
     width: 100%;
     height: 100%;
+    border: none;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
-.popup {
-    font-family: arial;
-    text-align: center;
-    width: 20%;
-    max-width: 100%;
-    margin: 20% auto;
-    padding: 20px;
-    background: white;
-    position: relative;
+.main-content .form-container form .middle input{
+    margin: 1%;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 98%;
+    font-family: 'Roboto Slab', sans-serif;
+    border: none;
 }
 
-
-
-.tituloescreva {
-    display: flex;
-    max-width: 100%;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10vh;
-    margin-bottom: -28vh;
+.main-content .form-container form textarea{
+    margin: 1%;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 98%;
+    font-family: 'Roboto Slab', sans-serif;
+    border: none;
 }
 
-.form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    width: 100%;
-    height: 99vh;
-    
+.main-content .form-container form input[type="button"] {
+    color: #45342a;
+    width: 98%;
+    height: 40px;
+    box-sizing: border-box;
+    align-self: center;
+    margin-top: -10px;
+    margin: 1%;
+    font-size: 1.1em;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
-.form-container .form-wrap {
-    max-width: 100%;
-    width: 70%;
-    background-color: #fff;
-    border-radius: 2px;
-    padding: 10px 14px;
+.main-content .form-container form span {
+    color: red;
 }
-
-.form-container .form-wrap h2 {
-    text-align: center;
-    margin: 0px 0px 20px;
-
-}
-
-.form-container .form-wrap .form-box {
-    margin: 0px 0px 20px;
-}
-
-.form-container .form-wrap .form-box input[type="text"] {
-    padding: 4px 9px;
-    width: 100%;
-    max-width: 100%;
-    border: 1px solid #3b3b3b;
-    border-radius: 3px;
-}
-
-.form-container .form-wrap .form-box textarea {
-    width: 100%;
-    max-width: 100%;
-    height: 250px;
-    padding: 4px 9px;
-    border: 1px solid #3b3b3b;
-    border-radius: 3px;
-
-
-}
-
-.form-container .form-wrap .form-submit {
-    display: flex;
-    justify-content: center;
-}
-
-.form-container .form-wrap .form-submit input[type="submit"] {
-    padding: 4px 9px;
-    background: #353535;
-    cursor: pointer;
-    font-size: 17px;
-    border-radius: 2px;
-    color: #fff;
-}
-
-.form-container2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 100%;
-    height: 99vh;
-    margin-top: -35vh;
-    
-}
-
-.form-container2 .form-wrap {
-    width: 70%;
-    max-width: 100%;
-    background-color: #fff;
-    border-radius: 2px;
-    padding: 10px 14px;
-}
-
-.form-container2 .form-wrap h2 {
-    text-align: center;
-    margin: 0px 0px 20px;
-
-}
-
-.form-container2 .form-wrap .form-box {
-    margin: 0px 0px 20px;
-}
-
-.form-container2 .form-wrap .form-box input[type="text"] {
-    padding: 4px 9px;
-    width: 100%;
-    max-width: 100%;
-    border: 1px solid #3b3b3b;
-    border-radius: 3px;
-}
-
-.form-container2 .form-wrap .form-box textarea {
-    width: 100%;
-    max-width: 100%;
-    height: 250px;
-    padding: 4px 9px;
-    border: 1px solid #3b3b3b;
-    border-radius: 3px;
-
-
-}
-
-.form-container2 .form-wrap .form-submit {
-    display: flex;
-    justify-content: center;
-}
-
-.form-container2 .form-wrap .form-submit input[type="submit"] {
-    padding: 4px 9px;
-    background: #353535;
-    cursor: pointer;
-    font-size: 17px;
-    border-radius: 2px;
-    color: #fff;
-}
-
-
-
-
-
-
-
-/* TESTE POST */
-
-
-
 
 /* FOOTER */
 .footer{
@@ -366,15 +277,15 @@ footer .footer-row a{
 
     
 }
-@media only screen and (max-width:720px){
+@media only screen and (max-width:600px){
     .footer{
-        text-align:left;
+        text-align:center;
         padding:5%;
     }
-    .footer .row ul li{
-        display:block;
+    .footer .footer-row  ul li{
+        display: flex;
         margin:10px 0px;
-        text-align:left;
+        justify-content: center;
     }
     .footer .row a i{
         margin:0% 3%;
