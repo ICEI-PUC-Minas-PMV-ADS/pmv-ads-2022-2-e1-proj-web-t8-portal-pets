@@ -115,7 +115,7 @@ header .menu-toggle {
 /* CONTENT */
 .content {
     width: 90%;
-    margin: 5%;
+    margin: 0px 5%;
 }
 
 .content .main-content {
@@ -125,7 +125,7 @@ header .menu-toggle {
 
 .content .main-content .title {
     text-align: center;
-    margin-bottom: 20px;
+    margin: 30px auto;
 }
 
 .content .main-content img {
@@ -227,15 +227,16 @@ footer .footer-row a{
         margin-left: .5em;
     }
 }
-@media only screen and (max-width:720px){
+
+@media only screen and (max-width:600px){
     .footer{
-        text-align:left;
+        text-align:center;
         padding:5%;
     }
-    .footer .row ul li{
-        display:block;
+    .footer .footer-row  ul li{
+        display: flex;
         margin:10px 0px;
-        text-align:left;
+        justify-content: center;
     }
     .footer .row a i{
         margin:0% 3%;

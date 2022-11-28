@@ -38,55 +38,62 @@
         
     </header>
      
-    <!-- teste post -->
-    <h1 class="tituloescreva">Escreva</h1>
+    <!-- Main Content -->
+    <div class="main-content">
 
-    
-    <div class="form-container">
-        <form action="#" class="form-wrap" method="POST">
-            <h2>Crie a sua Postagem</h2>
-            <div class="form-box">
-                <input type="text" placeholder="Titulo"/>
+        <div class="form-container">
+            <div class="title">
+                <h1>Enviar Postagem</h1>
+                <p>Crie aqui o seu próprio post!</p>
             </div>
-            <div class="form-box">
-                <input type="text" placeholder="Nome"/>
-            </div>
-            <div class="form-box">
-                <input type="text" placeholder="E-mail"/>
-            </div>
-            <div class="form-box">
-                <textarea rows="25" cols="10" placeholder="Texto"></textarea>
-            </div>
-            <div class="form-submit">
-                <input type="submit" value="Publicar"/>
-            </div>
-        </form>
+            <form action="">
+                <div class="top">
+                    <div class="comment-input">
+                        <input type="text" id="name" placeholder="Seu nome">
+                    </div>
+                    <div class="comment-input">
+                        <input type="email" id="email" placeholder="Seu e-mail" >
+                    </div>
+                </div>
+                <div class="middle">
+                    <input type="text" id="title" placeholder="Escreva o título">
+                </div>
+                <div class="bottom">
+                    <textarea name="text" id="text" cols="30" rows="5" placeholder="Escreva seu post..."></textarea>
+                </div>
+                <br>
+                <input type="button" id="sendPublish" value="Enviar">
+                <span id="button-error"></span>
+            </form>
+        </div>
 
+        <div class="form-container">
+            <div class="title">
+                <h1>Projetos e Ações</h1>
+                <p>Compartilhe uma ONG ou um projeto social</p>
+            </div>
+            <form action="">
+                <div class="top">
+                    <div class="comment-input">
+                        <input type="text" id="name-ong" placeholder="Seu nome">
+                    </div>
+                    <div class="comment-input">
+                        <input type="email" id="email-ong" placeholder="Seu e-mail">
+                    </div>
+                </div>
+                <div class="middle">
+                    <input type="text" id="site-ong" placeholder="Site da ONG ou projeto social">
+                </div>
+                <div class="bottom">
+                    <textarea name="text" id="text-ong" cols="30" rows="5" placeholder="Descreva sua ONG ou projeto social..."></textarea>
+                </div>
+                <br>
+                <input type="button" id="sendPublishOng" value="Enviar">
+                <span id="button-ong-error"></span>
+            </form>
+        </div>
     </div>
-
-    <div class="form-container2">
-        <form action="#" class="form-wrap" method="POST">
-            <h2>Compartilhe uma ONG</h2>
-            <div class="form-box">
-                <input type="text" placeholder="Titulo"/>
-            </div>
-            <div class="form-box">
-                <input type="text" placeholder="Nome"/>
-            </div>
-            <div class="form-box">
-                <input type="text" placeholder="E-mail"/>
-            </div>
-            <div class="form-box">
-                <textarea rows="25" cols="10" placeholder="Texto"></textarea>
-            </div>
-            <div class="form-submit">
-                <input type="submit" value="Publicar"/>
-            </div>
-        </form>
-
-    </div>
-
-    <!-- teste post -->
+    <!-- // Main Content -->
 
     <!-- Footer -->
     <footer class="footer">
@@ -115,6 +122,12 @@
         </div>
     </footer>
     <!-- // Footer -->
+        
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Custom Script -->
+    <script src="../js/script-escreva.js"></script>  
                
 </body>
 </html>
