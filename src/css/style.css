@@ -563,6 +563,7 @@ footer .footer-row a{
 @media only screen and (max-width: 1015px) {
     .content {
         width: 100%;
+        margin: auto;
     }
 
     .content .main-content {
@@ -629,6 +630,14 @@ footer .footer-row a{
 
     .content .main-content .post .read-more {
         display: none;
+    }
+
+    .post-slider .next {
+        right: 2%;
+    }
+    
+    .post-slider .prev {
+        left: 2%;
     }
 }
 
