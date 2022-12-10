@@ -127,7 +127,7 @@ Verificar se é possível comentar nas postagens e se é possível visualizar co
 ### Critérios de Êxito
 - Se os campos não forem preenchidos corretamente uma mensagem avisando deve aparecer e o comentário não será enviado.
 
--Funcionando corretamente (Se os campos não foram preenchidos corretamente o erro vai aparecer assim que tentar publicar) 
+-Funcionando corretamente (Se os campos não forem preenchidos corretamente o erro vai aparecer assim que tentar publicar) 
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814615-ce52e759-0878-4a04-b706-6a510236c743.png)
