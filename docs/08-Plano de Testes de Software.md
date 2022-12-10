@@ -232,7 +232,7 @@ Verificar se as postagens relacionadas estão aparecendo.
 
 - As postagens que aparecerem devem ser pertinentes com o post clicado. 
 
--Funcionando corretamente
+-Funcionando corretamente (As postagens relacionadas estão totalmente pertinentes com o post clicado) 
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206815378-f42a7148-a982-45ba-9bab-4d0bfb2be76e.png)
