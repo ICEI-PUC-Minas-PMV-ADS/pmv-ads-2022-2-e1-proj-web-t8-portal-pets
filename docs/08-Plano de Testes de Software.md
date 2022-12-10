@@ -136,7 +136,7 @@ Verificar se é possível comentar nas postagens e se é possível visualizar co
 - O comentário deve conter um avatar de animal aleátorio e a data do envio.
 - O comentário deve estar visível ao acessar as propriedades de localStorage da página.
 
--Funcionando corretamente (O comentário aparece junto com a data de envio e a foto de perfil de um animal aleátorio)
+-Funcionando corretamente (Caso todas as informações preechindas sejam corretas após a publicação do comentário aparece a data de envio e a foto de perfil de um animal aleátorio)
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814671-509ef48e-27da-40b0-b467-73fa3075c223.png)
