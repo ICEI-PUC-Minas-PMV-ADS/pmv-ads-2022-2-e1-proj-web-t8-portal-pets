@@ -100,7 +100,7 @@ function validateSubmit() {
   var email = $("#email").val();
   var title = $("#title").val();
   var text = $("#text").val();
-  if (validateName(name) && validateEmail(email) && validateTitle(title) && validateText(text)) {
+  if (validateName(name, "name") && validateEmail(email, "email") && validateTitle(title, "title") && validateText(text, "text")) {
     document.getElementById("button-error").innerHTML = "";
     return true;
   }
@@ -112,42 +112,61 @@ function validateSubmitOng() {
   var email = $("#email-ong").val();
   var site = $("#site-ong").val();
   var text = $("#text-ong").val();
-  if (validateName(name) && validateEmail(email) && validateTitle(site) && validateText(text)) {
+  if (validateName(name, "name-ong") && validateEmail(email, "email-ong") && validateTitle(site, "site-ong") && validateText(text, "text-ong")) {
     document.getElementById("button-ong-error").innerHTML = "";
     return true;
   }
   return false;
 }
 
-function validateName(name) {
+function validateName(name, nameId) {
   if (name.length == 0 || !name.match(/^[a-zA-ZÀ-ÿ]+ [a-zA-ZÀ-ÿ]+$/)) {
+    invalidateInput(nameId);
     return false;
   }
-    return true;
+  validateInput(nameId);
+  return true;
 }
 
-function validateEmail(email) {
+function validateEmail(email, emailId) {
   if (email.length == 0 || !email.match(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/)) {
+    invalidateInput(emailId);
     return false;
   }
+  validateInput(emailId);
   return true;
 }
 
-function validateTitle(title) {
+function validateTitle(title, titleId) {
   if (title.length == 0) {
+    invalidateInput(titleId);
     return false;
   }
+  validateInput(titleId);
   return true;
 }
 
-function validateText(text) {
+function validateText(text, textId) {
   if (text.length == 0) {
+    invalidateInput(textId);
     return false;
   }
+  validateInput(textId);
   return true;
 }
 
 function invalidateSubmit(button) {
   document.getElementById(button).style.display = "block";
   document.getElementById(button).innerHTML = "* preencha os campos corretamente";
+}
+
+function invalidateInput(inputId) {
+  var input = document.getElementById(inputId);
+  input.style.borderColor = "red";
+  input.style.borderWidth = "2px";
+  input.style.borderStyle = "solid";
+}
+
+function validateInput(inputId) {
+  document.getElementById(inputId).style.borderStyle = "none";
 }
