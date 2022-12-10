@@ -89,7 +89,7 @@ Verificar se é possível compartilhar as postagens em redes sociais
 - Abrir a tela de publicação da rede social escolhida com o link do site já preenchido
 
 -Funcionando corretamente 
-![image](https://user-images.githubusercontent.com/90425477/206814286-150f12b0-0eac-4f5a-867c-21831a2700e8.png)
+![image](https://user-images.githubusercontent.com/90425477/206817967-5cee8f69-3b59-4bf9-8858-c25a667a7c50.png)
 
 -Funcionando corretamente 
 ![image](https://user-images.githubusercontent.com/90425477/206814439-bbf49dc6-2db4-4a3f-830b-f11a506cbbe4.png)
