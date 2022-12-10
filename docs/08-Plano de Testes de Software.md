@@ -90,6 +90,7 @@ Verificar se é possível compartilhar as postagens em redes sociais
 
 -Funcionando corretamente 
 ![image](https://user-images.githubusercontent.com/90425477/206814286-150f12b0-0eac-4f5a-867c-21831a2700e8.png)
+
 ![image](https://user-images.githubusercontent.com/90425477/206814439-bbf49dc6-2db4-4a3f-830b-f11a506cbbe4.png)
 
 
