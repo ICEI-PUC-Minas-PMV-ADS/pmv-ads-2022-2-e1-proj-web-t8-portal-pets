@@ -11,7 +11,6 @@ Neste trabalho faremos a criação de um portal de notícias que permita o acess
 
 ## Integrantes
 
-* David Nogueira dos Santos
 * Gabriel Augusto Alves Lourenço
 * Raphael Ventura Muniz Lima
 
