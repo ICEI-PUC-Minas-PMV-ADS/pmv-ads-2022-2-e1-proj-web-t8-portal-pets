@@ -236,3 +236,6 @@ Verificar se as postagens relacionadas estão aparecendo.
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206815378-f42a7148-a982-45ba-9bab-4d0bfb2be76e.png)
+
+![image](https://user-images.githubusercontent.com/90425477/206818284-06e272ad-b775-4fd7-96e6-f345a972f3e5.png)
+
