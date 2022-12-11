@@ -13,10 +13,6 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 ### Objetivo do Teste
 Verificar se a home está sendo carregada corretamente
 
-### Critérios de Êxito
-- O site deve apresentar 6 posts em destaque e 3 posts recentes
-- Cada um dos posts apresentadas deve conter uma imagem, um título, autor e data da postagem
-
 -Funcionando corretamente 
 
 
@@ -27,8 +23,6 @@ Verificar se a home está sendo carregada corretamente
 ### Objetivo do Teste
 Verificar se as postagens estão sendo carregadas corretamente
 
-### Critérios de Êxito
-- O site deve carregar uma nova tela referente a postagem clicada, ou seja, mesmo título, mesma imagem e um texto coerente.
 
 -Funcionando corretamente 
 
@@ -42,8 +36,6 @@ Verificar se as postagens estão sendo carregadas corretamente
 ### Objetivo do Teste
 Verificar se a tela de contato está sendo carregada corretamente
 
-### Critérios de Êxito
-- O site deve carregar uma nova tela com informações de como entrar em contato com o mantenedor do site.
 
 -Funcionando corretamente (tela carregando sem erros) 
 
@@ -56,8 +48,6 @@ Verificar se a tela de contato está sendo carregada corretamente
 ### Objetivo do Teste
 Verificar se é possível compartilhar as postagens em redes sociais
 
-### Critérios de Êxito
-- Abrir a tela de publicação da rede social escolhida com o link do site já preenchido
 
 -Funcionando corretamente (compartilhamento de postagens sem erros) 
 
@@ -76,8 +66,7 @@ Verificar se é possível compartilhar as postagens em redes sociais
 ### Objetivo do Teste
 Verificar se é possível comentar nas postagens e se é possível visualizar comentários de outras pessoas.
 
-### Critérios de Êxito
-- Se os campos não forem preenchidos corretamente uma mensagem avisando deve aparecer e o comentário não será enviado.
+
 
 -Funcionando corretamente (Se os campos não forem preenchidos corretamente o erro vai aparecer assim que tentar publicar) 
 
@@ -100,8 +89,6 @@ Verificar se é possível comentar nas postagens e se é possível visualizar co
 ### Objetivo do Teste
 Verificar se é possível divulgar projetos sociais no site.
 
-### Critérios de Êxito
-- Mensagem de sucesso aparecendo após divulgar a ação social.
 
 -Funcionando corretamente 
 
@@ -131,9 +118,6 @@ Verificar se a navegação do site está funcionando corretamente.
 - Clicar em "Quem Somos" no cabeçalho do site
 
 
-### Critérios de Êxito
-- Deve abrir uma tela nova condizente com o atalho clicado.
-
 -Funcionando corretamente
 
 
@@ -150,11 +134,6 @@ Verificar se a navegação do site está funcionando corretamente.
 
 ### Objetivo do Teste
 Verificar se as postagens relacionadas estão aparecendo.
-
-### Critérios de Êxito
-- Deve haver uma sidebar "Postagens Relacionadas" com algumas postagens aparecendo
-
-- As postagens que aparecerem devem ser pertinentes com o post clicado. 
 
 -Funcionando corretamente (As postagens relacionadas estão totalmente pertinentes com o post clicado) 
 
