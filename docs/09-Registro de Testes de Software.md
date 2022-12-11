@@ -13,7 +13,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 ### Objetivo do Teste
 Verificar se a home está sendo carregada corretamente
 
--Funcionando corretamente 
+
 - Funcionando corretamente 
 
 
@@ -38,7 +38,7 @@ Verificar se as postagens estão sendo carregadas corretamente
 Verificar se a tela de contato está sendo carregada corretamente
 
 
--Funcionando corretamente (tela carregando sem erros) 
+- Funcionando corretamente  (tela carregando sem erros) 
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814186-5935dfab-28b3-4f7d-ab3f-b7f95bdc59b0.png)
@@ -50,12 +50,12 @@ Verificar se a tela de contato está sendo carregada corretamente
 Verificar se é possível compartilhar as postagens em redes sociais
 
 
--Funcionando corretamente (compartilhamento de postagens sem erros) 
+- Funcionando corretamente  (compartilhamento de postagens sem erros) 
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206817967-5cee8f69-3b59-4bf9-8858-c25a667a7c50.png)
 
--Funcionando corretamente (tela de publicação com o link preenchido)
+- Funcionando corretamente  (tela de publicação com o link preenchido)
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814439-bbf49dc6-2db4-4a3f-830b-f11a506cbbe4.png)
@@ -69,7 +69,7 @@ Verificar se é possível comentar nas postagens e se é possível visualizar co
 
 
 
--Funcionando corretamente (Se os campos não forem preenchidos corretamente o erro vai aparecer assim que tentar publicar) 
+- Funcionando corretamente  (Se os campos não forem preenchidos corretamente o erro vai aparecer assim que tentar publicar) 
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814615-ce52e759-0878-4a04-b706-6a510236c743.png)
@@ -78,7 +78,7 @@ Verificar se é possível comentar nas postagens e se é possível visualizar co
 - O comentário deve conter um avatar de animal aleátorio e a data do envio.
 - O comentário deve estar visível ao acessar as propriedades de localStorage da página.
 
--Funcionando corretamente (Caso todas as informações preechindas sejam corretas após a publicação do comentário aparece a data de envio e a foto de perfil de um animal aleátorio)
+- Funcionando corretamente  (Caso todas as informações preechindas sejam corretas após a publicação do comentário aparece a data de envio e a foto de perfil de um animal aleátorio)
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814671-509ef48e-27da-40b0-b467-73fa3075c223.png)
@@ -91,14 +91,14 @@ Verificar se é possível comentar nas postagens e se é possível visualizar co
 Verificar se é possível divulgar projetos sociais no site.
 
 
--Funcionando corretamente 
+- Funcionando corretamente 
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814832-a40fbc22-972e-4ef7-b08f-abcd9739af88.png)
 
 - Ao clicar em algum link da sidebar abre o site da ONG que está sendo divulgada no site.
 
--Funcionando corretamente (Ao clicar em algum link da sidebar o usuario é redirecionado para a ONG divulgada)
+- Funcionando corretamente  (Ao clicar em algum link da sidebar o usuario é redirecionado para a ONG divulgada)
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814862-161c4e85-e073-4414-8198-c1c34f9efe13.png)
@@ -119,12 +119,12 @@ Verificar se a navegação do site está funcionando corretamente.
 - Clicar em "Quem Somos" no cabeçalho do site
 
 
--Funcionando corretamente
+- Funcionando corretamente 
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814967-0d9a2280-5b68-4afe-b5c5-9e3dcf0c258b.png)
 
--Funcionando corretamente (Depois de clicar no atalho "Quem Somos" voce é redirecionado para a pagina "Quem Somos")
+- Funcionando corretamente (Depois de clicar no atalho "Quem Somos" voce é redirecionado para a pagina "Quem Somos")
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206815001-65807934-ecfe-40f0-98ea-718f2c6ec00d.png)
@@ -136,7 +136,7 @@ Verificar se a navegação do site está funcionando corretamente.
 ### Objetivo do Teste
 Verificar se as postagens relacionadas estão aparecendo.
 
--Funcionando corretamente (As postagens relacionadas estão totalmente pertinentes com o post clicado) 
+- Funcionando corretamente  (As postagens relacionadas estão totalmente pertinentes com o post clicado) 
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206815378-f42a7148-a982-45ba-9bab-4d0bfb2be76e.png)
