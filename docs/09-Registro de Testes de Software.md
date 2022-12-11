@@ -10,7 +10,7 @@ Verificar se a home está sendo carregada corretamente
 - Cada um dos posts apresentadas deve conter uma imagem, um título, autor e data da postagem
 
 ### Funcionando corretamente 
-
+- O site apresenta 6 posts em destaque e 3 posts recentes
 
 ![image](https://user-images.githubusercontent.com/90425477/206814018-1f0989e0-af84-4931-b02d-c01812296a28.png)
 
