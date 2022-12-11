@@ -22,7 +22,7 @@ Verificar se as postagens estão sendo carregadas corretamente
 ### Avaliação
 - O site deve carregar uma nova tela referente a postagem clicada, ou seja, mesmo título, mesma imagem e um texto coerente.
 
-- Funcionando corretamente 
+## Funcionando corretamente
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814110-ea0e5694-49cb-4de4-8de7-612696cb2ff3.png)
@@ -37,8 +37,8 @@ Verificar se a tela de contato está sendo carregada corretamente
 - O site deve carregar uma nova tela com informações de como entrar em contato com o mantenedor do site.
 
 
-- Funcionando corretamente (tela carregando sem erros) 
-
+## Funcionando corretamente  
+- Tela carregando sem erros
 
 ![image](https://user-images.githubusercontent.com/90425477/206814186-5935dfab-28b3-4f7d-ab3f-b7f95bdc59b0.png)
 
@@ -51,12 +51,12 @@ Verificar se é possível compartilhar as postagens em redes sociais
 ### Avaliação
 - Abrir a tela de publicação da rede social escolhida com o link do site já preenchido
 
-- Funcionando corretamente (compartilhamento de postagens sem erros) 
+## Funcionando corretamente (compartilhamento de postagens sem erros) 
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206817967-5cee8f69-3b59-4bf9-8858-c25a667a7c50.png)
 
-- Funcionando corretamente (tela de publicação com o link preenchido)
+## Funcionando corretamente (tela de publicação com o link preenchido)
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814439-bbf49dc6-2db4-4a3f-830b-f11a506cbbe4.png)
