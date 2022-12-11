@@ -1,3 +1,3 @@
 # Apresentação da Solução
 
-Slides e arquivo de vídeo
+Slides e arquivo de vídeo zipado
