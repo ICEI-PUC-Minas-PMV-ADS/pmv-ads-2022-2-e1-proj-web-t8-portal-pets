@@ -14,6 +14,7 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 Verificar se a home está sendo carregada corretamente
 
 -Funcionando corretamente 
+- Acessar o site no navegador
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814018-1f0989e0-af84-4931-b02d-c01812296a28.png)
