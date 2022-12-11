@@ -226,16 +226,22 @@ footer .footer-row a{
     header .logo {
         margin-left: .5em;
     }
+    .content .main-content {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width:600px){
+    .content .main-content {
+        width: 100%;
+    }
     .footer{
         text-align:center;
         padding:5%;
     }
     .footer .footer-row  ul li{
         display: flex;
-        margin:10px 0px;
+        margin-left: -10px;
         justify-content: center;
     }
     .footer .row a i{

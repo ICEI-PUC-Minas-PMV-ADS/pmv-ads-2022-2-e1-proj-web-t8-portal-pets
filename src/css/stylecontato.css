@@ -256,7 +256,7 @@ footer .footer-row a{
     }
     .footer .footer-row  ul li{
         display: flex;
-        margin:10px 0px;
+        margin-left: -10px;
         justify-content: center;
     }
     .footer .row a i{

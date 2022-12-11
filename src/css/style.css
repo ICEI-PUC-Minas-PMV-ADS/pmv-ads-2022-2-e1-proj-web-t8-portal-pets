@@ -639,6 +639,9 @@ footer .footer-row a{
     .post-slider .prev {
         left: 2%;
     }
+    .content .sibebar {
+        margin-top: -65px;
+    }
 }
 
 @media only screen and (max-width:600px){
@@ -648,7 +651,7 @@ footer .footer-row a{
     }
     .footer .footer-row  ul li{
         display: flex;
-        margin:10px 0px;
+        margin-left: -10px;
         justify-content: center;
     }
     .footer .row a i{
