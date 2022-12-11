@@ -5,6 +5,9 @@
 ### Objetivo do Teste
 Verificar se a home está sendo carregada corretamente
 
+### Avaliação
+- O site deve apresentar 6 posts em destaque e 3 posts recentes
+- Cada um dos posts apresentadas deve conter uma imagem, um título, autor e data da postagem
 
 - Funcionando corretamente 
 
@@ -16,6 +19,8 @@ Verificar se a home está sendo carregada corretamente
 ### Objetivo do Teste
 Verificar se as postagens estão sendo carregadas corretamente
 
+### Avaliação
+- O site deve carregar uma nova tela referente a postagem clicada, ou seja, mesmo título, mesma imagem e um texto coerente.
 
 - Funcionando corretamente 
 
@@ -25,9 +30,11 @@ Verificar se as postagens estão sendo carregadas corretamente
 
 ## CT-03 - Visualizar Tela de Contato
 
-
 ### Objetivo do Teste
 Verificar se a tela de contato está sendo carregada corretamente
+
+### Avaliação
+- O site deve carregar uma nova tela com informações de como entrar em contato com o mantenedor do site.
 
 
 - Funcionando corretamente (tela carregando sem erros) 
@@ -41,6 +48,8 @@ Verificar se a tela de contato está sendo carregada corretamente
 ### Objetivo do Teste
 Verificar se é possível compartilhar as postagens em redes sociais
 
+### Avaliação
+- Abrir a tela de publicação da rede social escolhida com o link do site já preenchido
 
 - Funcionando corretamente (compartilhamento de postagens sem erros) 
 
@@ -59,16 +68,17 @@ Verificar se é possível compartilhar as postagens em redes sociais
 ### Objetivo do Teste
 Verificar se é possível comentar nas postagens e se é possível visualizar comentários de outras pessoas.
 
+### Avaliação
+- Se os campos não forem preenchidos corretamente uma mensagem avisando deve aparecer e o comentário não será enviado.
+- Se os campos forem preenchidos corretamente ele deverá ser publicado e estar visível abaixo do formulário.
+- O comentário deve conter um avatar de animal aleátorio e a data do envio.
+- O comentário deve estar visível ao acessar as propriedades de localStorage da página.
 
 
 - Funcionando corretamente (Se os campos não forem preenchidos corretamente o erro vai aparecer assim que tentar publicar) 
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814615-ce52e759-0878-4a04-b706-6a510236c743.png)
-
-- Se os campos forem preenchidos corretamente ele deverá ser publicado e estar visível abaixo do formulário.
-- O comentário deve conter um avatar de animal aleátorio e a data do envio.
-- O comentário deve estar visível ao acessar as propriedades de localStorage da página.
 
 - Funcionando corretamente (Caso todas as informações preechindas sejam corretas após a publicação do comentário aparece a data de envio e a foto de perfil de um animal aleátorio)
 
@@ -82,19 +92,19 @@ Verificar se é possível comentar nas postagens e se é possível visualizar co
 ### Objetivo do Teste
 Verificar se é possível divulgar projetos sociais no site.
 
+### Avaliação
+- Mensagem de sucesso aparecendo após divulgar a ação social.
+- Ao clicar em algum link da sidebar abre o site da ONG que está sendo divulgada no site.
 
 - Funcionando corretamente 
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814832-a40fbc22-972e-4ef7-b08f-abcd9739af88.png)
 
-- Ao clicar em algum link da sidebar abre o site da ONG que está sendo divulgada no site.
-
 - Funcionando corretamente (Ao clicar em algum link da sidebar o usuario é redirecionado para a ONG divulgada)
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814862-161c4e85-e073-4414-8198-c1c34f9efe13.png)
-
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814897-1d61d6e3-ec52-42e4-ae13-1123f3db89f9.png)
@@ -105,11 +115,8 @@ Verificar se é possível divulgar projetos sociais no site.
 ### Objetivo do Teste
 Verificar se a navegação do site está funcionando corretamente.
 
-### Passos
-- Acessar o site no navegador
-- Visualizar a página principal
-- Clicar em "Quem Somos" no cabeçalho do site
-
+### Avaliação
+- Deve abrir uma tela nova condizente com o atalho clicado.
 
 - Funcionando corretamente 
 
@@ -128,8 +135,11 @@ Verificar se a navegação do site está funcionando corretamente.
 ### Objetivo do Teste
 Verificar se as postagens relacionadas estão aparecendo.
 
-- Funcionando corretamente (As postagens relacionadas estão totalmente pertinentes com o post clicado) 
+### Avaliação
+- Deve haver uma sidebar "Postagens Relacionadas" com algumas postagens aparecendo
 
+
+- Funcionando corretamente (As postagens relacionadas estão totalmente pertinentes com o post clicado) 
 
 ![image](https://user-images.githubusercontent.com/90425477/206815378-f42a7148-a982-45ba-9bab-4d0bfb2be76e.png)
 
