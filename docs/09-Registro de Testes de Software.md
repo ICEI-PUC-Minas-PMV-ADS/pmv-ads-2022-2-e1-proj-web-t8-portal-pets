@@ -23,6 +23,7 @@ Verificar se as postagens estão sendo carregadas corretamente
 - O site deve carregar uma nova tela referente a postagem clicada, ou seja, mesmo título, mesma imagem e um texto coerente.
 
 ### Funcionando 
+- O site carrega sem erros uma nova pagina ao clicar na postagem
 
 
 ![image](https://user-images.githubusercontent.com/90425477/206814110-ea0e5694-49cb-4de4-8de7-612696cb2ff3.png)
